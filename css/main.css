@@ -16,12 +16,12 @@
 .main__block_first {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 165px;
+  margin-top: 201px;
 }
 
 .main__block_item {
   display: flex;
-  padding: 10px 0;
+  position: relative;
 }
 
 .main__block_item:first-child {
@@ -30,6 +30,18 @@
 
 .main__block_item:nth-child(2) {
   width: 25%;
+}
+
+.main__block_item a {
+  position: absolute;
+  right: -8px;
+  top: -7px;
+  cursor: pointer;
+}
+
+.main__block_item a > img{
+  width: 50px;
+  height: 35px;
 }
 
 .main__block_item:nth-child(3) {
@@ -70,14 +82,19 @@
 
 .main__block_text {
   margin-right: 10px;
+  margin-bottom: 0;
+  margin-top: 7px;
 }
 
 .main__block_input {
   width: 100%;
   border: none;
+  font-size: 14px;
   border-bottom: 1px solid rgba(0,0,0,.5);
+  font-style: italic;
+  line-height: 0;
 }
 
 .main__block_input:focus {
-
+  outline: none;
 }
