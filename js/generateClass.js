@@ -74,4 +74,158 @@ const generateClass = () => {
     classSkill: '',
     race: ['8','13-16','11-14','4-8','none']
   };
+  arrayClass[5] = {
+    className: 'Бюргеры',
+    career: 'Попрошайка',
+    stage: {
+      1: 'Побирушка',
+      2: 'Попрошайка',
+      3: 'Старший попрошайка',
+      4: 'Король попрошаек'
+    },
+    status: ['copper0','copper2','copper4','silver2'],
+    inventory: [],
+    classSkill: '',
+    race: ['9-10','17','15-18','none','none']
+  };
+  arrayClass[6] = {
+    className: 'Бюргеры',
+    career: 'Ремесленник',
+    stage: {
+      1: 'Подмастерье ремесленника  ',
+      2: 'Ремесленник',
+      3: 'Мастер-ремесленник',
+      4: 'Гильдмейстер'
+    },
+    status: ['copper2','silver1','silver3','gold1'],
+    inventory: [],
+    classSkill: '',
+    race: ['11-12','18-23','19-23','9-11','1-5']
+  };
+  arrayClass[7] = {
+    className: 'Бюргеры',
+    career: 'Следователь',
+    stage: {
+      1: 'Сыщик',
+      2: 'Следователь',
+      3: 'Старший следователь',
+      4: 'Детектив'
+    },
+    status: ['silver1','silver2','silver3','silver5'],
+    inventory: [],
+    classSkill: '',
+    race: ['13','24-25','24-25','12-13','none']
+  };
+  arrayClass[8] = {
+    className: 'Воины',
+    career: 'Гладиатор',
+    stage: {
+      1: 'Кулачный боец',
+      2: 'Гладиатор',
+      3: 'Чемпион арены',
+      4: 'Легенда арены'
+    },
+    status: ['silver1','silver2','silver3','silver5'],
+    inventory: [],
+    classSkill: '',
+    race: ['14','26-28','26','14-15','6-7']
+  };
+  arrayClass[9] = {
+    className: 'Воины',
+    career: 'Жрец-воин',
+    stage: {
+      1: 'Неофит',
+      2: 'Жрец-воин',
+      3: 'Жрец-сержант',
+      4: 'Жрец-капитан'
+    },
+    status: ['copper2','silver2','silver3','silver4'],
+    inventory: [],
+    classSkill: '',
+    race: ['15','none','none','none','none']
+  };
+  arrayClass[10] = {
+    className: 'Воины',
+    career: 'Кавалерист',
+    stage: {
+      1: 'Всадник',
+      2: 'Кавалерист',
+      3: 'Сержант кавалерии',
+      4: 'Офицер кавалерии'
+    },
+    status: ['silver2','silver4','gold1','gold2'],
+    inventory: [],
+    classSkill: '',
+    race: ['16-17','none','none','16-19','8-12']
+  };
+  arrayClass[11] = {
+    className: 'Воины',
+    career: 'Негодяй',
+    stage: {
+      1: 'Задира',
+      2: 'Негодяй',
+      3: 'Наёмный убийца',
+      4: 'Ассасин'
+    },
+    status: ['copper2','silver1','silver4','gold1'],
+    inventory: [],
+    classSkill: '',
+    race: ['18','29-31','none','20','none']
+  };
+  arrayClass[12] = {
+    className: 'Воины',
+    career: 'Охранник',
+    stage: {
+      1: 'Часовой',
+      2: 'Охранник',
+      3: 'Гвардеец',
+      4: 'Офице гвардии'
+    },
+    status: ['silver1','silver2','silver3','silver5'],
+    inventory: [],
+    classSkill: '',
+    race: ['19-20','32-34','27-28','21-22','13-14']
+  };
+  arrayClass[13] = {
+    className: 'Воины',
+    career: 'Рыцарь',
+    stage: {
+      1: 'Оруженосец',
+      2: 'Рыцарь',
+      3: 'Первый рыцарь',
+      4: 'Рыцарь Внутреннего Круга'
+    },
+    status: ['silver3','silver5','gold2','gold4'],
+    inventory: [],
+    classSkill: '',
+    race: ['21','none','none','23','15-16']
+  };
+  arrayClass[14] = {
+    className: 'Воины',
+    career: 'Солдат',
+    stage: {
+      1: 'Новобранец',
+      2: 'Солдат',
+      3: 'Сержант',
+      4: 'Офицер'
+    },
+    status: ['silver1','silver3','silver5','gold1'],
+    inventory: [],
+    classSkill: '',
+    race: ['22-25','35–37','29–31','24–25','17–20']
+  };
+  arrayClass[15] = {
+    className: 'Воины',
+    career: 'Убийца чудовищ',
+    stage: {
+      1: 'Убийца троллей',
+      2: 'Убийца великанов',
+      3: 'Убийца драконов',
+      4: 'Убийца демонов'
+    },
+    status: ['copper2','copper2','copper2','copper2'],
+    inventory: [],
+    classSkill: '',
+    race: ['none','38–41','none','none','none']
+  };
  }
