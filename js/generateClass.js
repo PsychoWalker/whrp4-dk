@@ -228,4 +228,117 @@ const generateClass = () => {
     classSkill: '',
     race: ['none','38–41','none','none','none']
   };
+  arrayClass[16] = {
+    className: 'Книгочеи',
+    career: 'Аптекарь',
+    stage: {
+      1: 'Подмастерье аптекаря',
+      2: 'Аптекарь',
+      3: 'Мастер-аптекарь',
+      4: 'Провизор'
+    },
+    status: ['copper3','silver1','silver3','gold1'],
+    inventory: [],
+    classSkill: '',
+    race: ['26','42','32','26-27','none']
+  };
+  arrayClass[17] = {
+    className: 'Книгочеи',
+    career: 'Врач',
+    stage: {
+      1: 'Подмастерье врача',
+      2: 'Врач',
+      3: 'Доктор',
+      4: 'Придворный врач'
+    },
+    status: ['copper4','silver3','silver5','gold1'],
+    inventory: [],
+    classSkill: '',
+    race: ['27','43','33-34','28-29','none']
+  };
+  arrayClass[18] = {
+    className: 'Книгочеи',
+    career: 'Жрец',
+    stage: {
+      1: 'Диакон',
+      2: 'Жрец',
+      3: 'Верховный жрец',
+      4: 'Предстоятель'
+    },
+    status: ['copper2','copper2','copper2','copper2'],
+    inventory: [],
+    classSkill: '',
+    race: ['28-31','none','none','none','none']
+  };
+  arrayClass[19] = {
+    className: 'Книгочеи',
+    career: 'Законник',
+    stage: {
+      1: 'Студент-законник',
+      2: 'Законник',
+      3: 'Барристер',
+      4: 'Судья'
+    },
+    status: ['copper4','silver3','gold1','gold2'],
+    inventory: [],
+    classSkill: '',
+    race: ['33','44-45','35-36','30-33','none']
+  };
+  arrayClass[20] = {
+    className: 'Книгочеи',
+    career: 'Инженер',
+    stage: {
+      1: 'Студент-инженер',
+      2: 'Инженер',
+      3: 'Мастер-инженер',
+      4: 'Патентованный инженер'
+    },
+    status: ['copper4','silver2','silver4','copper2'],
+    inventory: [],
+    classSkill: '',
+    race: ['34','46-48','37','none','none']
+  };
+
+  arrayClass[21] = {
+    className: 'Книгочеи',
+    career: 'Маг',
+    stage: {
+      1: 'Ученик мага',
+      2: 'Маг',
+      3: 'Магистр',
+      4: 'Верховный маг'
+    },
+    status: ['cooper3','silver3','gold1','gold2'],
+    inventory: [],
+    classSkill: '',
+    race: ['35','none','none','34-37','21-24']
+  };
+
+  arrayClass[22] = {
+    className: 'Книгочеи',
+    career: 'Монах',
+    stage: {
+      1: 'Послушник',
+      2: 'Монах',
+      3: 'Аббат',
+      4: 'Генеральный настоятель'
+    },
+    status: ['copper1','copper4','silver2', 'silver5'],
+    classSkill: '',
+    race: ['36-37', 'none', 'none', 'none' ]
+  };
+  arrayClass[23] = {
+    className: 'Книгочеи',
+    career: 'Учёный',
+    stage: {
+      1: 'Студент',
+      2: 'Учёный',
+      3: 'Академик',
+      4: 'Профессор'
+    },
+    status: ['copper3','silver2','silver5','gold1'],
+    inventory: [],
+    classSkill: '',
+    race: ['38-39', '49-50', '40', '38-41', '25' ]
+  };
  }
