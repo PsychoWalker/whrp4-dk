@@ -1,4 +1,4 @@
-const generateClass = () => {
+ const generateClass = () => {
   const arrayClass = [];
 
   arrayClass[0] = {
@@ -443,28 +443,127 @@ const generateClass = () => {
     className: 'Крестьяне',
     career: 'Травник',
     stage: {
-      1: '',
-      2: '',
-      3: '',
-      4: ''
+      1: 'Сборщик трав ',
+      2: 'Травник',
+      3: 'Знаток трав',
+      4: 'Премудрый травник'
     },
-    status: ['copper3','silver2','silver5','gold1'],
+    status: ['copper2','copper4','silver1','siver3'],
     inventory: [],
     classSkill: '',
-    race: ['52', 'none', '48-50', '51-52', '25' ]
+    race: ['52', 'none', '48-50', '51-52', '52-58' ]
   };
   arrayClass[31] = {
-    className: 'Крестьяне',
-    career: '',
+    className: 'Придворные',
+    career: 'Дворянин',
     stage: {
-      1: '',
-      2: '',
-      3: '',
-      4: ''
+      1: 'Дворянский отпрыск',
+      2: 'Дворянин',
+      3: 'Магнат',
+      4: 'Аристократ'
     },
-    status: ['copper3','silver2','silver5','gold1'],
+    status: ['gold1','gold3','gold5','gold7'],
     inventory: [],
     classSkill: '',
-    race: ['38-39', '49-50', '40', '38-41', '25' ]
+    race: ['53', '62', 'none', '53-55', '59-64' ]
   };
+  arrayClass[32] = {
+    className: 'Придворные',
+    career: 'Дуэлянт',
+    stage: {
+      1: 'Фехтовальщик',
+      2: 'Дуэлянт',
+      3: 'Мастер-дуэлянт',
+      4: 'Судебный поединщик'
+    },
+    status: ['silver3','silver5','gold1','gold3'],
+    inventory: [],
+    classSkill: '',
+    race: ['54', '63', 'none', '56-57', 'none' ]
+  };
+  arrayClass[33] = {
+    className: 'Придворные',
+    career: 'Слуга',
+    stage: {
+      1: 'Дворня',
+      2: 'Слуга',
+      3: 'Камердинер',
+      4: 'Домоправитель'
+    },
+    status: ['silver1','silver3','silver5','gold1'],
+    inventory: [],
+    classSkill: '',
+    race: ['55–57', '64', '51–56', 'none', 'none' ]
+  };
+  arrayClass[34] = {
+    className: 'Придворные',
+    career: 'Смотритель',
+    stage: {
+      1: 'Сторож',
+      2: 'Смотритель',
+      3: 'Сенешаль',
+      4: 'Губернатор'
+    },
+    status: ['silver1','silver3','gold1','gold3'],
+    inventory: [],
+    classSkill: '',
+    race: ['58', '65–66', '57–58', '58–59', 'none' ]
+  };
+  arrayClass[35] = {
+    className: 'Придворные',
+    career: 'Советник',
+    stage: {
+      1: 'Секретарь',
+      2: 'Советник',
+      3: 'Сановник',
+      4: 'Канцлер'
+    },
+    status: ['silver2','silver4','gold1','gold3'],
+    inventory: [],
+    classSkill: '',
+    race: ['59', '67–68', '59', '60–61', '65–68' ]
+  };
+  arrayClass[36] = {
+    className: 'Придворные',
+    career: 'Художник',
+    stage: {
+      1: 'Ученик художника',
+      2: 'Художник',
+      3: 'Мэтр',
+      4: 'Маэстро'
+    },
+    status: ['silver1','silver3','silver5','gold2'],
+    inventory: [],
+    classSkill: '',
+    race: ['60', '69', '60–61', '62', '69–72' ]
+  };
+  arrayClass[37] = {
+    className: 'Придворные',
+    career: 'Шпион',
+    stage: {
+      1: 'Осведомитель',
+      2: 'Шпион',
+      3: 'Агент',
+      4: 'Глава шпионов'
+    },
+    status: ['silver1','silver3','gold1','gold4'],
+    inventory: [],
+    classSkill: '',
+    race: ['61', '70', '62', '63–65', '73–76' ]
+  };
+  arrayClass[38] = {
+    className: 'Придворные',
+    career: 'Эмиссар',
+    stage: {
+      1: 'Герольд',
+      2: 'Эмиссар',
+      3: 'Дипломат',
+      4: 'Посол'
+    },
+    status: ['silver2','silver4','gold2','gold5'],
+    inventory: [],
+    classSkill: '',
+    race: ['62', '71–72', '63', '66–68', '77–83' ]
+  };
+  
  }
