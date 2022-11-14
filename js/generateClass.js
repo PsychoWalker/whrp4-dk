@@ -341,4 +341,130 @@ const generateClass = () => {
     classSkill: '',
     race: ['38-39', '49-50', '40', '38-41', '25' ]
   };
+  arrayClass[24] = {
+    className: 'Крестьяне',
+    career: 'Бейлиф',
+    stage: {
+      1: 'Мытарь',
+      2: 'Бейлиф',
+      3: 'Шериф',
+      4: 'Магистрат'
+    },
+    status: ['copper3','silver2','silver5','gold1'],
+    inventory: [],
+    classSkill: '',
+    race: ['40', '51-52', '40', 'none', 'none' ]
+  };
+  arrayClass[25] = {
+    className: 'Крестьяне',
+    career: 'Знахарь',
+    stage: {
+      1: 'Ученик знахаря',
+      2: 'Знахарь',
+      3: 'Знахарь-наставник',
+      4: 'Премудрый знахарь'
+    },
+    status: ['copper1','copper2','copper3','copper5'],
+    inventory: [],
+    classSkill: '',
+    race: ['41', 'none', 'none', 'none', 'none' ]
+  };
+  arrayClass[26] = {
+    className: 'Крестьяне',
+    career: 'Мистик',
+    stage: {
+      1: 'Предсказатель',
+      2: 'Мистик',
+      3: 'Прорицатель',
+      4: 'Провидец'
+    },
+    status: ['copper1','copper2','copper3','copper4'],
+    inventory: [],
+    classSkill: '',
+    race: ['42', 'none', 'none', 'none', '26-30' ]
+  };
+  arrayClass[26] = {
+    className: 'Крестьяне',
+    career: 'Охотник',
+    stage: {
+      1: 'Зверолов',
+      2: 'Охотник',
+      3: 'Следопыт',
+      4: 'Егермейстер'
+    },
+    status: ['copper12','copper4','silver1','silver3'],
+    inventory: [],
+    classSkill: '',
+    race: ['43-44', '53-54', '41-42', '42-44', '31-40' ]
+  };
+  arrayClass[27] = {
+    className: 'Крестьяне',
+    career: 'Разведчик',
+    stage: {
+      1: 'Проводник',
+      2: 'Разведчик',
+      3: 'Землепроходец',
+      4: 'Первооткрыватель'
+    },
+    status: ['copper3','copper5','silver1','silver5'],
+    inventory: [],
+    classSkill: '',
+    race: ['45', '55', '43', '45-50', '41-51' ]
+  };
+  arrayClass[28] = {
+    className: 'Крестьяне',
+    career: 'Рудокоп',
+    stage: {
+      1: 'Старатель',
+      2: 'Рудокоп',
+      3: 'Рудознатец',
+      4: 'Бригадир рудокопов'
+    },
+    status: ['copper2','copper4','copper5','silver4'],
+    inventory: [],
+    classSkill: '',
+    race: ['46', '56-60', '40', '44', 'none' ]
+  };
+  arrayClass[29] = {
+    className: 'Крестьяне',
+    career: 'Селянин',
+    stage: {
+      1: 'Батрак',
+      2: 'Селянин',
+      3: 'Член схода',
+      4: 'Староста'
+    },
+    status: ['copper2','copper3','copper4','silver2'],
+    inventory: [],
+    classSkill: '',
+    race: ['47-51', '61', '45-47', 'none', 'neone' ]
+  };
+  arrayClass[30] = {
+    className: 'Крестьяне',
+    career: 'Травник',
+    stage: {
+      1: '',
+      2: '',
+      3: '',
+      4: ''
+    },
+    status: ['copper3','silver2','silver5','gold1'],
+    inventory: [],
+    classSkill: '',
+    race: ['52', 'none', '48-50', '51-52', '25' ]
+  };
+  arrayClass[31] = {
+    className: 'Крестьяне',
+    career: '',
+    stage: {
+      1: '',
+      2: '',
+      3: '',
+      4: ''
+    },
+    status: ['copper3','silver2','silver5','gold1'],
+    inventory: [],
+    classSkill: '',
+    race: ['38-39', '49-50', '40', '38-41', '25' ]
+  };
  }
