@@ -1,5 +1,10 @@
+import {getRandom} from "./utils.js";
+
  const generateClass = () => {
   const arrayClass = [];
+
+  const MIN_CLASS_NUMBER = 1;
+  const MAX_CLASS_NUMBER = 100;
 
   arrayClass[0] = {
     className: 'Бюргеры',
@@ -212,7 +217,7 @@
     status: ['silver1','silver3','silver5','gold1'],
     inventory: [],
     classSkill: '',
-    race: ['22-25','35–37','29–31','24–25','17–20']
+    race: ['22-25','35-37','29-31','24-25','17-20']
   };
   arrayClass[15] = {
     className: 'Воины',
@@ -226,7 +231,7 @@
     status: ['copper2','copper2','copper2','copper2'],
     inventory: [],
     classSkill: '',
-    race: ['none','38–41','none','none','none']
+    race: ['none','38-41','none','none','none']
   };
   arrayClass[16] = {
     className: 'Книгочеи',
@@ -493,7 +498,7 @@
     status: ['silver1','silver3','silver5','gold1'],
     inventory: [],
     classSkill: '',
-    race: ['55–57', '64', '51–56', 'none', 'none' ]
+    race: ['55-57', '64', '51-56', 'none', 'none' ]
   };
   arrayClass[34] = {
     className: 'Придворные',
@@ -507,7 +512,7 @@
     status: ['silver1','silver3','gold1','gold3'],
     inventory: [],
     classSkill: '',
-    race: ['58', '65–66', '57–58', '58–59', 'none' ]
+    race: ['58', '65-66', '57-58', '58-59', 'none' ]
   };
   arrayClass[35] = {
     className: 'Придворные',
@@ -521,7 +526,7 @@
     status: ['silver2','silver4','gold1','gold3'],
     inventory: [],
     classSkill: '',
-    race: ['59', '67–68', '59', '60–61', '65–68' ]
+    race: ['59', '67-68', '59', '60-61', '65-68' ]
   };
   arrayClass[36] = {
     className: 'Придворные',
@@ -535,7 +540,7 @@
     status: ['silver1','silver3','silver5','gold2'],
     inventory: [],
     classSkill: '',
-    race: ['60', '69', '60–61', '62', '69–72' ]
+    race: ['60', '69', '60-61', '62', '69-72' ]
   };
   arrayClass[37] = {
     className: 'Придворные',
@@ -549,7 +554,7 @@
     status: ['silver1','silver3','gold1','gold4'],
     inventory: [],
     classSkill: '',
-    race: ['61', '70', '62', '63–65', '73–76' ]
+    race: ['61', '70', '62', '63-65', '73-76' ]
   };
   arrayClass[38] = {
     className: 'Придворные',
@@ -563,7 +568,7 @@
     status: ['silver2','silver4','gold2','gold5'],
     inventory: [],
     classSkill: '',
-    race: ['62', '71–72', '63', '66–68', '77–83' ]
+    race: ['62', '71-72', '63', '66-68', '77-83' ]
   };
    arrayClass[39] = {
      className: 'Речники',
@@ -577,7 +582,7 @@
      status: ['copper3','silver1','silver3','silver5'],
      inventory: [],
      classSkill: '',
-     race: ['63-64', '73–74', '64-66', 'none', 'none' ]
+     race: ['63-64', '73-74', '64-66', 'none', 'none' ]
    };
    arrayClass[40] = {
      className: 'Речники',
@@ -591,7 +596,7 @@
      status: ['copper2','copper3','copper5','silver2'],
      inventory: [],
      classSkill: '',
-     race: ['65', '75–76', '67-70', '69', 'none' ]
+     race: ['65', '75-76', '67-70', '69', 'none' ]
    };
    arrayClass[41] = {
      className: 'Речники',
@@ -605,7 +610,7 @@
      status: ['silver1','silver2','silver3','silver5'],
      inventory: [],
      classSkill: '',
-     race: ['66–67', '77–78', '70', '70', 'none' ]
+     race: ['66-67', '77-78', '70', '70', 'none' ]
    };
    arrayClass[42] = {
      className: 'Речники',
@@ -633,7 +638,7 @@
      status: ['silver1','silver3','silver5','gold2'],
      inventory: [],
      classSkill: '',
-     race: ['69–70', '80', '73', '71–85', 'none' ]
+     race: ['69-70', '80', '73', '71-85', 'none' ]
    };
    arrayClass[44] = {
      className: 'Речники',
@@ -661,7 +666,7 @@
      status: ['copper2','copper3','copper5','silver2'],
      inventory: [],
      classSkill: '',
-     race: ['72–74', '82–83', '74–76', 'none', 'none' ]
+     race: ['72-74', '82-83', '74-76', 'none', 'none' ]
    };
    arrayClass[46] = {
      className: 'Речники',
@@ -675,7 +680,7 @@
      status: ['silver1','silver2','silver4','gold1'],
      inventory: [],
      classSkill: '',
-     race: ['75–76', 'none', '77', 'none', 'none' ]
+     race: ['75-76', 'none', '77', 'none', 'none' ]
    };
    arrayClass[47] = {
      className: 'Странники',
@@ -689,7 +694,7 @@
      status: ['copper3','copper5','silver3','gold1'],
      inventory: [],
      classSkill: '',
-     race: ['77–78', '84–85', '78–80', '86–88', '85–89' ]
+     race: ['77-78', '84-85', '78-80', '86-88', '85-89' ]
    };
    arrayClass[48] = {
      className: 'Странники',
@@ -717,7 +722,7 @@
      status: ['copper1','copper4','silver1','silver3'],
      inventory: [],
      classSkill: '',
-     race: ['80', '86–87', '82–83', 'none', 'none' ]
+     race: ['80', '86-87', '82-83', 'none', 'none' ]
    };
    arrayClass[50] = {
      className: 'Странники',
@@ -731,7 +736,7 @@
      status: ['silver1','silver2','silver3','silver5'],
      inventory: [],
      classSkill: '',
-     race: ['81', '88', '84–85', 'none', 'none' ]
+     race: ['81', '88', '84-85', 'none', 'none' ]
    };
    arrayClass[51] = {
      className: 'Странники',
@@ -745,7 +750,7 @@
      status: ['silver1','silver3','silver5','gold1'],
      inventory: [],
      classSkill: '',
-     race: ['82', '89–92', '86', '89–91 ', '90–91' ]
+     race: ['82', '89-92', '86', '89-91 ', '90-91' ]
    };
    arrayClass[52] = {
      className: 'Странники',
@@ -773,7 +778,7 @@
      status: ['copper3','silver1','silver3','silver5'],
      inventory: [],
      classSkill: '',
-     race: ['84', '93–94', '87–88', '92', '92–94' ]
+     race: ['84', '93-94', '87-88', '92', '92-94' ]
    };
    arrayClass[54] = {
      className: 'Странники',
@@ -787,7 +792,7 @@
      status: ['copper0','copper0','copper0','copper0'],
      inventory: [],
      classSkill: '',
-     race: ['85–86', 'none', 'none', 'none', 'none' ]
+     race: ['85-86', 'none', 'none', 'none', 'none' ]
    };
    arrayClass[55] = {
      className: 'Шельмы',
@@ -829,7 +834,7 @@
      status: ['copper1','copper3','copper5','silver3'],
      inventory: [],
      classSkill: '',
-     race: ['89–91', '96', '90–93', 'none', 'none' ]
+     race: ['89-91', '96', '90-93', 'none', 'none' ]
    };
    arrayClass[58] = {
      className: 'Шельмы',
@@ -857,7 +862,7 @@
      status: ['copper1','copper3','silver1','silver3'],
      inventory: [],
      classSkill: '',
-     race: ['93–94', 'none', '95–97', '93–94', 'none' ]
+     race: ['93-94', 'none', '95-97', '93-94', 'none' ]
    };
    arrayClass[60] = {
      className: 'Шельмы',
@@ -871,7 +876,7 @@
      status: ['copper1','copper2','copper4','silver2'],
      inventory: [],
      classSkill: '',
-     race: ['95–98', '97–99', '98', '95–97 ', '95–100' ]
+     race: ['95-98', '97-99', '98', '95-97 ', '95-100' ]
    };
    arrayClass[61] = {
      className: 'Шельмы',
@@ -901,5 +906,26 @@
      classSkill: '',
      race: ['100', 'none', '100', '98-100', 'none' ]
    };
+   const generateButton = document.querySelector('.generateClass');
+
+
+   generateButton.addEventListener('click', () => {
+    const getRace = document.querySelector('.main__block_input-race').getAttribute('data-race');
+    const classNumber = getRandom(MIN_CLASS_NUMBER,MAX_CLASS_NUMBER);
+    const classEnter = document.querySelector('.main__block_input-class');
+
+    arrayClass.forEach((element) => {
+      let rangeClassNumber = element.race[getRace].split('-');
+
+      console.log(rangeClassNumber);
+    
+      if (classNumber === Number(element.race[getRace])) {
+        classEnter.value = element.className;
+      }
+    });
+   });
+   
 
  }
+
+ export {generateClass}

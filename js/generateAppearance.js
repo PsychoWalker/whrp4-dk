@@ -51,10 +51,10 @@ const riseCharacterCreate = () => {
         inputRise.value = getRandom(140, 165);
         break;
       case 'Высший эльф':
-        inputRise.value = getRandom(10, 100);
+        inputRise.value = getRandom(190, 210);
         break;
       case 'Лесной эльф':
-        inputRise.value = getRandom(18, 210);
+        inputRise.value = getRandom(190, 210);
         break;
       case '':
         inputRise.value = 'Выберите расу';
