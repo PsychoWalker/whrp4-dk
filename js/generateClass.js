@@ -789,5 +789,117 @@
      classSkill: '',
      race: ['85–86', 'none', 'none', 'none', 'none' ]
    };
+   arrayClass[55] = {
+     className: 'Шельмы',
+     career: 'Бандит',
+     stage: {
+       1: 'Громила',
+       2: 'Бандит',
+       3: 'Главарь банды',
+       4: ' Король преступного мира'
+     },
+     status: ['copper3','copper5','silver3','silver5'],
+     inventory: [],
+     classSkill: '',
+     race: ['87', '95', '89', 'none', 'none' ]
+   };
+   arrayClass[56] = {
+     className: 'Шельмы',
+     career: 'Ведьма',
+     stage: {
+       1: 'Ворожея',
+       2: 'Ведьма',
+       3: 'Ведунья',
+       4: 'Колдунья'
+     },
+     status: ['copper1','copper2','copper3','copper5'],
+     inventory: [],
+     classSkill: '',
+     race: ['88', 'none', 'none', 'none', 'none' ]
+   };
+   arrayClass[57] = {
+     className: 'Шельмы',
+     career: 'Вор',
+     stage: {
+       1: 'Проныра',
+       2: 'Вор',
+       3: 'Искусный вор',
+       4: 'Взломщик'
+     },
+     status: ['copper1','copper3','copper5','silver3'],
+     inventory: [],
+     classSkill: '',
+     race: ['89–91', '96', '90–93', 'none', 'none' ]
+   };
+   arrayClass[58] = {
+     className: 'Шельмы',
+     career: 'Гробокопатель',
+     stage: {
+       1: 'Поставщик трупов',
+       2: 'Гробокопатель',
+       3: 'Расхититель гробниц',
+       4: 'Охотник за сокровищами'
+     },
+     status: ['copper2','copper3','silver1','silver5'],
+     inventory: [],
+     classSkill: '',
+     race: ['92', 'none', '94', 'none', 'none' ]
+   };
+   arrayClass[59] = {
+     className: 'Шельмы',
+     career: 'Пройдоха',
+     stage: {
+       1: 'Прохиндей',
+       2: 'Пройдоха',
+       3: 'Посредник',
+       4: 'Делец'
+     },
+     status: ['copper1','copper3','silver1','silver3'],
+     inventory: [],
+     classSkill: '',
+     race: ['93–94', 'none', '95–97', '93–94', 'none' ]
+   };
+   arrayClass[60] = {
+     className: 'Шельмы',
+     career: 'Разбойник',
+     stage: {
+       1: 'Грабитель',
+       2: 'Разбойник',
+       3: 'Атаман разбойников ',
+       4: 'Король разбойников'
+     },
+     status: ['copper1','copper2','copper4','silver2'],
+     inventory: [],
+     classSkill: '',
+     race: ['95–98', '97–99', '98', '95–97 ', '95–100' ]
+   };
+   arrayClass[61] = {
+     className: 'Шельмы',
+     career: 'Скупщик краденого',
+     stage: {
+       1: 'Барышник',
+       2: 'Скупщик краденого',
+       3: 'Ломбардщик',
+       4: ' Теневой воротила'
+     },
+     status: ['silver1','silver2','silver3','silver4'],
+     inventory: [],
+     classSkill: '',
+     race: ['99', '100', '99', 'none', 'none' ]
+   };
+   arrayClass[62] = {
+     className: 'Шельмы',
+     career: 'Шарлатан',
+     stage: {
+       1: 'Мошенник',
+       2: 'Шарлатан',
+       3: 'Аферист',
+       4: 'Махинатор'
+     },
+     status: ['copper3','copper5','silver2','silver4'],
+     inventory: [],
+     classSkill: '',
+     race: ['100', 'none', '100', '98-100', 'none' ]
+   };
 
  }
