@@ -565,5 +565,229 @@
     classSkill: '',
     race: ['62', '71–72', '63', '66–68', '77–83' ]
   };
-  
+   arrayClass[39] = {
+     className: 'Речники',
+     career: 'Докер',
+     stage: {
+       1: 'Грузчик',
+       2: 'Докер',
+       3: 'Бригадир докеров',
+       4: 'Докмейстер'
+     },
+     status: ['copper3','silver1','silver3','silver5'],
+     inventory: [],
+     classSkill: '',
+     race: ['63-64', '73–74', '64-66', 'none', 'none' ]
+   };
+   arrayClass[40] = {
+     className: 'Речники',
+     career: 'Контрабандист',
+     stage: {
+       1: 'Речной скороход',
+       2: 'Контрабандист',
+       3: 'Лихой контрабандист',
+       4: 'Король контрабандистов'
+     },
+     status: ['copper2','copper3','copper5','silver2'],
+     inventory: [],
+     classSkill: '',
+     race: ['65', '75–76', '67-70', '69', 'none' ]
+   };
+   arrayClass[41] = {
+     className: 'Речники',
+     career: 'Лодочник',
+     stage: {
+       1: 'Гребец',
+       2: 'Лодочник',
+       3: 'Старшина',
+       4: 'Капитан баржи'
+     },
+     status: ['silver1','silver2','silver3','silver5'],
+     inventory: [],
+     classSkill: '',
+     race: ['66–67', '77–78', '70', '70', 'none' ]
+   };
+   arrayClass[42] = {
+     className: 'Речники',
+     career: 'Лоцман',
+     stage: {
+       1: 'Вперёдсмотрящий',
+       2: 'Лоцман',
+       3: 'Кормчий',
+       4: 'Навигатор'
+     },
+     status: ['copper4','silver1','silver3','silver5'],
+     inventory: [],
+     classSkill: '',
+     race: ['68', '79 ', '72', 'none', 'none' ]
+   };
+   arrayClass[43] = {
+     className: 'Речники',
+     career: 'Моряк',
+     stage: {
+       1: 'Береговик',
+       2: 'Моряк',
+       3: 'Боцман',
+       4: 'Капитан корабля'
+     },
+     status: ['silver1','silver3','silver5','gold2'],
+     inventory: [],
+     classSkill: '',
+     race: ['69–70', '80', '73', '71–85', 'none' ]
+   };
+   arrayClass[44] = {
+     className: 'Речники',
+     career: 'Побережник',
+     stage: {
+       1: 'Мародёр',
+       2: 'Побережник',
+       3: 'Речной пират',
+       4: 'Капитан побережников'
+     },
+     status: ['copper2','copper3','copper5','silver2'],
+     inventory: [],
+     classSkill: '',
+     race: ['71', '81', 'none', 'none', '84' ]
+   };
+   arrayClass[45] = {
+     className: 'Речники',
+     career: 'Речной житель',
+     stage: {
+       1: 'Малёк',
+       2: 'Речной житель',
+       3: 'Речной старожил',
+       4: 'Речной староста'
+     },
+     status: ['copper2','copper3','copper5','silver2'],
+     inventory: [],
+     classSkill: '',
+     race: ['72–74', '82–83', '74–76', 'none', 'none' ]
+   };
+   arrayClass[46] = {
+     className: 'Речники',
+     career: 'Речной стражник',
+     stage: {
+       1: 'Новобранец Речной стражи',
+       2: 'Речной стражник',
+       3: 'Корабельный меч',
+       4: 'Командир корабельных мечей'
+     },
+     status: ['silver1','silver2','silver4','gold1'],
+     inventory: [],
+     classSkill: '',
+     race: ['75–76', 'none', '77', 'none', 'none' ]
+   };
+   arrayClass[47] = {
+     className: 'Странники',
+     career: 'Артист',
+     stage: {
+       1: ' Уличный артист',
+       2: 'Артист',
+       3: 'Трубадур',
+       4: 'Глава труппы'
+     },
+     status: ['copper3','copper5','silver3','gold1'],
+     inventory: [],
+     classSkill: '',
+     race: ['77–78', '84–85', '78–80', '86–88', '85–89' ]
+   };
+   arrayClass[48] = {
+     className: 'Странники',
+     career: 'Дорожный стражник',
+     stage: {
+       1: 'Сборщик пошлин',
+       2: 'Дорожный стражник',
+       3: 'Сержант Дорожной стражи',
+       4: 'Капитан Дорожной стражи'
+     },
+     status: ['copper5','silver2','silver4','gold1'],
+     inventory: [],
+     classSkill: '',
+     race: ['79', 'none', '81', 'none', 'none' ]
+   };
+   arrayClass[49] = {
+     className: 'Странники',
+     career: 'Коробейник',
+     stage: {
+       1: ' Лоточник',
+       2: 'Коробейник',
+       3: 'Бывалый коробейник',
+       4: 'Странствующий торговец'
+     },
+     status: ['copper1','copper4','silver1','silver3'],
+     inventory: [],
+     classSkill: '',
+     race: ['80', '86–87', '82–83', 'none', 'none' ]
+   };
+   arrayClass[50] = {
+     className: 'Странники',
+     career: 'Кучер',
+     stage: {
+       1: 'Форейтор',
+       2: 'Кучер',
+       3: 'Хозяин дилижанса',
+       4: 'Распорядитель маршрута'
+     },
+     status: ['silver1','silver2','silver3','silver5'],
+     inventory: [],
+     classSkill: '',
+     race: ['81', '88', '84–85', 'none', 'none' ]
+   };
+   arrayClass[51] = {
+     className: 'Странники',
+     career: 'Охотник за головами',
+     stage: {
+       1: 'Ловец воров',
+       2: 'Охотник за головами',
+       3: 'Мастер-поимщик',
+       4: 'Старший поимщик'
+     },
+     status: ['silver1','silver3','silver5','gold1'],
+     inventory: [],
+     classSkill: '',
+     race: ['82', '89–92', '86', '89–91 ', '90–91' ]
+   };
+   arrayClass[52] = {
+     className: 'Странники',
+     career: 'Охотник на ведьм',
+     stage: {
+       1: 'Дознаватель',
+       2: 'Охотник на ведьм',
+       3: 'Инквизитор',
+       4: 'Великий инквизитор'
+     },
+     status: ['silver1','silver3','silver5','gold1'],
+     inventory: [],
+     classSkill: '',
+     race: ['83', 'none', 'none', 'none', 'none' ]
+   };
+   arrayClass[53] = {
+     className: 'Странники',
+     career: 'Посыльный',
+     stage: {
+       1: 'Гонец',
+       2: 'Посыльный',
+       3: 'Курьер',
+       4: 'Капитан курьеров'
+     },
+     status: ['copper3','silver1','silver3','silver5'],
+     inventory: [],
+     classSkill: '',
+     race: ['84', '93–94', '87–88', '92', '92–94' ]
+   };
+   arrayClass[47] = {
+     className: 'Странники',
+     career: 'Флагеллант',
+     stage: {
+       1: 'Фанатик',
+       2: 'Флагеллант',
+       3: 'Кающийся грешник',
+       4: 'Пророк Судного Дня'
+     },
+     status: ['copper0','copper0','copper0','copper0'],
+     inventory: [],
+     classSkill: '',
+     race: ['85–86', 'none', 'none', 'none', 'none' ]
+   };
+
  }
