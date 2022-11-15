@@ -775,7 +775,7 @@
      classSkill: '',
      race: ['84', '93–94', '87–88', '92', '92–94' ]
    };
-   arrayClass[47] = {
+   arrayClass[54] = {
      className: 'Странники',
      career: 'Флагеллант',
      stage: {
