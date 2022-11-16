@@ -10,10 +10,10 @@ import {getRandom} from "./utils.js";
     className: 'Бюргеры',
     career: 'Агитатор',
     stage: {
-      1: 'Памфлетист',
-      2: 'Агитатор',
-      3: 'Подстрекатель',
-      4: 'Демагог'
+      first: 'Памфлетист',
+      second: 'Агитатор',
+      third: 'Подстрекатель',
+      fourth: 'Демагог'
     },
     status: ['copper1','copper2','copper3','cooper5'],
     inventory: ['дюжина гвоздей, молоток, писчий набор, стопка листовок','кожаная куртка','памфлетист, ручное оружие','внушительная шляпа, печатный станок, покровитель, трое памфлетистов'],
@@ -24,10 +24,10 @@ import {getRandom} from "./utils.js";
     className: 'Бюргеры',
     career: 'Городской стражник',
     stage: {
-      1: 'Новобранец городской стражи',
-      2: 'Городской стражник',
-      3: 'Сержант городской стражи',
-      4: 'Капитан городской стражи'
+      first: 'Новобранец городской стражи',
+      second: 'Городской стражник',
+      third: 'Сержант городской стражи',
+      fourth: 'Капитан городской стражи'
     },
     status: ['copper3','silver1','silver3','gold1'],
     inventory: ['кожаная куртка, мундир, ручное оружие','ламповое масло, масляная лампа на шесте, медный значок','знак служебного положения, кираса, шлем', 'верховая лошадь, отличная шляпа,\n' +
@@ -39,10 +39,10 @@ import {getRandom} from "./utils.js";
     className: 'Бюргеры',
     career: 'Горожанин',
     stage: {
-      1: 'Мелкая сошка',
-      2: 'Горожанин',
-      3: 'Городской старшина',
-      4: 'Бургомистр'
+      first: 'Мелкая сошка',
+      second: 'Горожанин',
+      third: 'Городской старшина',
+      fourth: 'Бургомистр'
     },
     status: ['silver1','silver2','silver5','gold1'],
     inventory: ['крепкие башмаки, съёмная комната','писчий набор, скромный городской дом, слуга','городской дом, карета с кучером', 'верховая лошадь, отличная шляпа,\n' +
@@ -54,10 +54,10 @@ import {getRandom} from "./utils.js";
     className: 'Бюргеры',
     career: 'Крысолов',
     stage: {
-      1: 'Крысобой',
-      2: 'Крысолов',
-      3: 'Городской старшина',
-      4: 'Бургомистр'
+      first: 'Крысобой',
+      second: 'Крысолов',
+      third: 'Городской старшина',
+      fourth: 'Бургомистр'
     },
     status: ['copper3','silver1','silver2','silver3'],
     inventory: ['маленькая, но злобная собака, мешок, праща и 10 пуль',' ловушки на крыс, шест для мёртвых крыс','кожаная куртка, лампа Давриха, ручное\n' +
@@ -69,10 +69,10 @@ import {getRandom} from "./utils.js";
     className: 'Бюргеры',
     career: 'Купец',
     stage: {
-      1: 'Торговец',
-      2: 'Купец',
-      3: 'Негоциант',
-      4: 'Патриций'
+      first: 'Торговец',
+      second: 'Купец',
+      third: 'Негоциант',
+      fourth: 'Патриций'
     },
     status: ['copper2','silver5','gold1','gold3'],
     inventory: ['абак, мул, парусиновый навес, повозка, 3d10 серебряных шиллингов','лицензия Гильдии Купцов, речная баржа или 2 фургона, 20 золотых крон',' городской дом с прислугой, склад, 100 золотых крон', 'городской особняк, отличная одежда, 2 речных баржи или 4 фургона, 2 склада, 1000 золотых крон'],
@@ -83,10 +83,10 @@ import {getRandom} from "./utils.js";
     className: 'Бюргеры',
     career: 'Попрошайка',
     stage: {
-      1: 'Побирушка',
-      2: 'Попрошайка',
-      3: 'Старший попрошайка',
-      4: 'Король попрошаек'
+      first: 'Побирушка',
+      second: 'Попрошайка',
+      third: 'Старший попрошайка',
+      fourth: 'Король попрошаек'
     },
     status: ['copper0','copper2','copper4','silver2'],
     inventory: [],
@@ -97,10 +97,10 @@ import {getRandom} from "./utils.js";
     className: 'Бюргеры',
     career: 'Ремесленник',
     stage: {
-      1: 'Подмастерье ремесленника  ',
-      2: 'Ремесленник',
-      3: 'Мастер-ремесленник',
-      4: 'Гильдмейстер'
+      first: 'Подмастерье ремесленника  ',
+      second: 'Ремесленник',
+      third: 'Мастер-ремесленник',
+      fourth: 'Гильдмейстер'
     },
     status: ['copper2','silver1','silver3','gold1'],
     inventory: [],
@@ -111,10 +111,10 @@ import {getRandom} from "./utils.js";
     className: 'Бюргеры',
     career: 'Следователь',
     stage: {
-      1: 'Сыщик',
-      2: 'Следователь',
-      3: 'Старший следователь',
-      4: 'Детектив'
+      first: 'Сыщик',
+      second: 'Следователь',
+      third: 'Старший следователь',
+      fourth: 'Детектив'
     },
     status: ['silver1','silver2','silver3','silver5'],
     inventory: [],
@@ -125,10 +125,10 @@ import {getRandom} from "./utils.js";
     className: 'Воины',
     career: 'Гладиатор',
     stage: {
-      1: 'Кулачный боец',
-      2: 'Гладиатор',
-      3: 'Чемпион арены',
-      4: 'Легенда арены'
+      first: 'Кулачный боец',
+      second: 'Гладиатор',
+      third: 'Чемпион арены',
+      fourth: 'Легенда арены'
     },
     status: ['silver1','silver2','silver3','silver5'],
     inventory: [],
@@ -139,10 +139,10 @@ import {getRandom} from "./utils.js";
     className: 'Воины',
     career: 'Жрец-воин',
     stage: {
-      1: 'Неофит',
-      2: 'Жрец-воин',
-      3: 'Жрец-сержант',
-      4: 'Жрец-капитан'
+      first: 'Неофит',
+      second: 'Жрец-воин',
+      third: 'Жрец-сержант',
+      fourth: 'Жрец-капитан'
     },
     status: ['copper2','silver2','silver3','silver4'],
     inventory: [],
@@ -153,10 +153,10 @@ import {getRandom} from "./utils.js";
     className: 'Воины',
     career: 'Кавалерист',
     stage: {
-      1: 'Всадник',
-      2: 'Кавалерист',
-      3: 'Сержант кавалерии',
-      4: 'Офицер кавалерии'
+      first: 'Всадник',
+      second: 'Кавалерист',
+      third: 'Сержант кавалерии',
+      fourth: 'Офицер кавалерии'
     },
     status: ['silver2','silver4','gold1','gold2'],
     inventory: [],
@@ -167,10 +167,10 @@ import {getRandom} from "./utils.js";
     className: 'Воины',
     career: 'Негодяй',
     stage: {
-      1: 'Задира',
-      2: 'Негодяй',
-      3: 'Наёмный убийца',
-      4: 'Ассасин'
+      first: 'Задира',
+      second: 'Негодяй',
+      third: 'Наёмный убийца',
+      fourth: 'Ассасин'
     },
     status: ['copper2','silver1','silver4','gold1'],
     inventory: [],
@@ -181,10 +181,10 @@ import {getRandom} from "./utils.js";
     className: 'Воины',
     career: 'Охранник',
     stage: {
-      1: 'Часовой',
-      2: 'Охранник',
-      3: 'Гвардеец',
-      4: 'Офице гвардии'
+      first: 'Часовой',
+      second: 'Охранник',
+      third: 'Гвардеец',
+      fourth: 'Офице гвардии'
     },
     status: ['silver1','silver2','silver3','silver5'],
     inventory: [],
@@ -195,10 +195,10 @@ import {getRandom} from "./utils.js";
     className: 'Воины',
     career: 'Рыцарь',
     stage: {
-      1: 'Оруженосец',
-      2: 'Рыцарь',
-      3: 'Первый рыцарь',
-      4: 'Рыцарь Внутреннего Круга'
+      first: 'Оруженосец',
+      second: 'Рыцарь',
+      third: 'Первый рыцарь',
+      fourth: 'Рыцарь Внутреннего Круга'
     },
     status: ['silver3','silver5','gold2','gold4'],
     inventory: [],
@@ -209,10 +209,10 @@ import {getRandom} from "./utils.js";
     className: 'Воины',
     career: 'Солдат',
     stage: {
-      1: 'Новобранец',
-      2: 'Солдат',
-      3: 'Сержант',
-      4: 'Офицер'
+      first: 'Новобранец',
+      second: 'Солдат',
+      third: 'Сержант',
+      fourth: 'Офицер'
     },
     status: ['silver1','silver3','silver5','gold1'],
     inventory: [],
@@ -223,10 +223,10 @@ import {getRandom} from "./utils.js";
     className: 'Воины',
     career: 'Убийца чудовищ',
     stage: {
-      1: 'Убийца троллей',
-      2: 'Убийца великанов',
-      3: 'Убийца драконов',
-      4: 'Убийца демонов'
+      first: 'Убийца троллей',
+      second: 'Убийца великанов',
+      third: 'Убийца драконов',
+      fourth: 'Убийца демонов'
     },
     status: ['copper2','copper2','copper2','copper2'],
     inventory: [],
@@ -237,10 +237,10 @@ import {getRandom} from "./utils.js";
     className: 'Книгочеи',
     career: 'Аптекарь',
     stage: {
-      1: 'Подмастерье аптекаря',
-      2: 'Аптекарь',
-      3: 'Мастер-аптекарь',
-      4: 'Провизор'
+      first: 'Подмастерье аптекаря',
+      second: 'Аптекарь',
+      third: 'Мастер-аптекарь',
+      fourth: 'Провизор'
     },
     status: ['copper3','silver1','silver3','gold1'],
     inventory: [],
@@ -251,10 +251,10 @@ import {getRandom} from "./utils.js";
     className: 'Книгочеи',
     career: 'Врач',
     stage: {
-      1: 'Подмастерье врача',
-      2: 'Врач',
-      3: 'Доктор',
-      4: 'Придворный врач'
+      first: 'Подмастерье врача',
+      second: 'Врач',
+      third: 'Доктор',
+      fourth: 'Придворный врач'
     },
     status: ['copper4','silver3','silver5','gold1'],
     inventory: [],
@@ -265,10 +265,10 @@ import {getRandom} from "./utils.js";
     className: 'Книгочеи',
     career: 'Жрец',
     stage: {
-      1: 'Диакон',
-      2: 'Жрец',
-      3: 'Верховный жрец',
-      4: 'Предстоятель'
+      first: 'Диакон',
+      second: 'Жрец',
+      third: 'Верховный жрец',
+      fourth: 'Предстоятель'
     },
     status: ['copper2','copper2','copper2','copper2'],
     inventory: [],
@@ -279,10 +279,10 @@ import {getRandom} from "./utils.js";
     className: 'Книгочеи',
     career: 'Законник',
     stage: {
-      1: 'Студент-законник',
-      2: 'Законник',
-      3: 'Барристер',
-      4: 'Судья'
+      first: 'Студент-законник',
+      second: 'Законник',
+      third: 'Барристер',
+      fourth: 'Судья'
     },
     status: ['copper4','silver3','gold1','gold2'],
     inventory: [],
@@ -293,10 +293,10 @@ import {getRandom} from "./utils.js";
     className: 'Книгочеи',
     career: 'Инженер',
     stage: {
-      1: 'Студент-инженер',
-      2: 'Инженер',
-      3: 'Мастер-инженер',
-      4: 'Патентованный инженер'
+      first: 'Студент-инженер',
+      second: 'Инженер',
+      third: 'Мастер-инженер',
+      fourth: 'Патентованный инженер'
     },
     status: ['copper4','silver2','silver4','copper2'],
     inventory: [],
@@ -308,10 +308,10 @@ import {getRandom} from "./utils.js";
     className: 'Книгочеи',
     career: 'Маг',
     stage: {
-      1: 'Ученик мага',
-      2: 'Маг',
-      3: 'Магистр',
-      4: 'Верховный маг'
+      first: 'Ученик мага',
+      second: 'Маг',
+      third: 'Магистр',
+      fourth: 'Верховный маг'
     },
     status: ['cooper3','silver3','gold1','gold2'],
     inventory: [],
@@ -323,10 +323,10 @@ import {getRandom} from "./utils.js";
     className: 'Книгочеи',
     career: 'Монах',
     stage: {
-      1: 'Послушник',
-      2: 'Монах',
-      3: 'Аббат',
-      4: 'Генеральный настоятель'
+      first: 'Послушник',
+      second: 'Монах',
+      third: 'Аббат',
+      fourth: 'Генеральный настоятель'
     },
     status: ['copper1','copper4','silver2', 'silver5'],
     classSkill: '',
@@ -336,10 +336,10 @@ import {getRandom} from "./utils.js";
     className: 'Книгочеи',
     career: 'Учёный',
     stage: {
-      1: 'Студент',
-      2: 'Учёный',
-      3: 'Академик',
-      4: 'Профессор'
+      first: 'Студент',
+      second: 'Учёный',
+      third: 'Академик',
+      fourth: 'Профессор'
     },
     status: ['copper3','silver2','silver5','gold1'],
     inventory: [],
@@ -350,10 +350,10 @@ import {getRandom} from "./utils.js";
     className: 'Крестьяне',
     career: 'Бейлиф',
     stage: {
-      1: 'Мытарь',
-      2: 'Бейлиф',
-      3: 'Шериф',
-      4: 'Магистрат'
+      first: 'Мытарь',
+      second: 'Бейлиф',
+      third: 'Шериф',
+      fourth: 'Магистрат'
     },
     status: ['copper3','silver2','silver5','gold1'],
     inventory: [],
@@ -364,10 +364,10 @@ import {getRandom} from "./utils.js";
     className: 'Крестьяне',
     career: 'Знахарь',
     stage: {
-      1: 'Ученик знахаря',
-      2: 'Знахарь',
-      3: 'Знахарь-наставник',
-      4: 'Премудрый знахарь'
+      first: 'Ученик знахаря',
+      second: 'Знахарь',
+      third: 'Знахарь-наставник',
+      fourth: 'Премудрый знахарь'
     },
     status: ['copper1','copper2','copper3','copper5'],
     inventory: [],
@@ -378,10 +378,10 @@ import {getRandom} from "./utils.js";
     className: 'Крестьяне',
     career: 'Мистик',
     stage: {
-      1: 'Предсказатель',
-      2: 'Мистик',
-      3: 'Прорицатель',
-      4: 'Провидец'
+      first: 'Предсказатель',
+      second: 'Мистик',
+      third: 'Прорицатель',
+      fourth: 'Провидец'
     },
     status: ['copper1','copper2','copper3','copper4'],
     inventory: [],
@@ -392,10 +392,10 @@ import {getRandom} from "./utils.js";
     className: 'Крестьяне',
     career: 'Охотник',
     stage: {
-      1: 'Зверолов',
-      2: 'Охотник',
-      3: 'Следопыт',
-      4: 'Егермейстер'
+      first: 'Зверолов',
+      second: 'Охотник',
+      third: 'Следопыт',
+      fourth: 'Егермейстер'
     },
     status: ['copper12','copper4','silver1','silver3'],
     inventory: [],
@@ -406,10 +406,10 @@ import {getRandom} from "./utils.js";
     className: 'Крестьяне',
     career: 'Разведчик',
     stage: {
-      1: 'Проводник',
-      2: 'Разведчик',
-      3: 'Землепроходец',
-      4: 'Первооткрыватель'
+      first: 'Проводник',
+      second: 'Разведчик',
+      third: 'Землепроходец',
+      fourth: 'Первооткрыватель'
     },
     status: ['copper3','copper5','silver1','silver5'],
     inventory: [],
@@ -420,10 +420,10 @@ import {getRandom} from "./utils.js";
     className: 'Крестьяне',
     career: 'Рудокоп',
     stage: {
-      1: 'Старатель',
-      2: 'Рудокоп',
-      3: 'Рудознатец',
-      4: 'Бригадир рудокопов'
+      first: 'Старатель',
+      second: 'Рудокоп',
+      third: 'Рудознатец',
+      fourth: 'Бригадир рудокопов'
     },
     status: ['copper2','copper4','copper5','silver4'],
     inventory: [],
@@ -434,10 +434,10 @@ import {getRandom} from "./utils.js";
     className: 'Крестьяне',
     career: 'Селянин',
     stage: {
-      1: 'Батрак',
-      2: 'Селянин',
-      3: 'Член схода',
-      4: 'Староста'
+      first: 'Батрак',
+      second: 'Селянин',
+      third: 'Член схода',
+      fourth: 'Староста'
     },
     status: ['copper2','copper3','copper4','silver2'],
     inventory: [],
@@ -448,10 +448,10 @@ import {getRandom} from "./utils.js";
     className: 'Крестьяне',
     career: 'Травник',
     stage: {
-      1: 'Сборщик трав ',
-      2: 'Травник',
-      3: 'Знаток трав',
-      4: 'Премудрый травник'
+      first: 'Сборщик трав ',
+      second: 'Травник',
+      third: 'Знаток трав',
+      fourth: 'Премудрый травник'
     },
     status: ['copper2','copper4','silver1','siver3'],
     inventory: [],
@@ -462,10 +462,10 @@ import {getRandom} from "./utils.js";
     className: 'Придворные',
     career: 'Дворянин',
     stage: {
-      1: 'Дворянский отпрыск',
-      2: 'Дворянин',
-      3: 'Магнат',
-      4: 'Аристократ'
+      first: 'Дворянский отпрыск',
+      second: 'Дворянин',
+      third: 'Магнат',
+      fourth: 'Аристократ'
     },
     status: ['gold1','gold3','gold5','gold7'],
     inventory: [],
@@ -476,10 +476,10 @@ import {getRandom} from "./utils.js";
     className: 'Придворные',
     career: 'Дуэлянт',
     stage: {
-      1: 'Фехтовальщик',
-      2: 'Дуэлянт',
-      3: 'Мастер-дуэлянт',
-      4: 'Судебный поединщик'
+      first: 'Фехтовальщик',
+      second: 'Дуэлянт',
+      third: 'Мастер-дуэлянт',
+      fourth: 'Судебный поединщик'
     },
     status: ['silver3','silver5','gold1','gold3'],
     inventory: [],
@@ -490,10 +490,10 @@ import {getRandom} from "./utils.js";
     className: 'Придворные',
     career: 'Слуга',
     stage: {
-      1: 'Дворня',
-      2: 'Слуга',
-      3: 'Камердинер',
-      4: 'Домоправитель'
+      first: 'Дворня',
+      second: 'Слуга',
+      third: 'Камердинер',
+      fourth: 'Домоправитель'
     },
     status: ['silver1','silver3','silver5','gold1'],
     inventory: [],
@@ -504,10 +504,10 @@ import {getRandom} from "./utils.js";
     className: 'Придворные',
     career: 'Смотритель',
     stage: {
-      1: 'Сторож',
-      2: 'Смотритель',
-      3: 'Сенешаль',
-      4: 'Губернатор'
+      first: 'Сторож',
+      second: 'Смотритель',
+      third: 'Сенешаль',
+      fourth: 'Губернатор'
     },
     status: ['silver1','silver3','gold1','gold3'],
     inventory: [],
@@ -518,10 +518,10 @@ import {getRandom} from "./utils.js";
     className: 'Придворные',
     career: 'Советник',
     stage: {
-      1: 'Секретарь',
-      2: 'Советник',
-      3: 'Сановник',
-      4: 'Канцлер'
+      first: 'Секретарь',
+      second: 'Советник',
+      third: 'Сановник',
+      fourth: 'Канцлер'
     },
     status: ['silver2','silver4','gold1','gold3'],
     inventory: [],
@@ -532,10 +532,10 @@ import {getRandom} from "./utils.js";
     className: 'Придворные',
     career: 'Художник',
     stage: {
-      1: 'Ученик художника',
-      2: 'Художник',
-      3: 'Мэтр',
-      4: 'Маэстро'
+      first: 'Ученик художника',
+      second: 'Художник',
+      third: 'Мэтр',
+      fourth: 'Маэстро'
     },
     status: ['silver1','silver3','silver5','gold2'],
     inventory: [],
@@ -546,10 +546,10 @@ import {getRandom} from "./utils.js";
     className: 'Придворные',
     career: 'Шпион',
     stage: {
-      1: 'Осведомитель',
-      2: 'Шпион',
-      3: 'Агент',
-      4: 'Глава шпионов'
+      first: 'Осведомитель',
+      second: 'Шпион',
+      third: 'Агент',
+      fourth: 'Глава шпионов'
     },
     status: ['silver1','silver3','gold1','gold4'],
     inventory: [],
@@ -560,10 +560,10 @@ import {getRandom} from "./utils.js";
     className: 'Придворные',
     career: 'Эмиссар',
     stage: {
-      1: 'Герольд',
-      2: 'Эмиссар',
-      3: 'Дипломат',
-      4: 'Посол'
+      first: 'Герольд',
+      second: 'Эмиссар',
+      third: 'Дипломат',
+      fourth: 'Посол'
     },
     status: ['silver2','silver4','gold2','gold5'],
     inventory: [],
@@ -574,10 +574,10 @@ import {getRandom} from "./utils.js";
      className: 'Речники',
      career: 'Докер',
      stage: {
-       1: 'Грузчик',
-       2: 'Докер',
-       3: 'Бригадир докеров',
-       4: 'Докмейстер'
+       first: 'Грузчик',
+       second: 'Докер',
+       third: 'Бригадир докеров',
+       fourth: 'Докмейстер'
      },
      status: ['copper3','silver1','silver3','silver5'],
      inventory: [],
@@ -588,10 +588,10 @@ import {getRandom} from "./utils.js";
      className: 'Речники',
      career: 'Контрабандист',
      stage: {
-       1: 'Речной скороход',
-       2: 'Контрабандист',
-       3: 'Лихой контрабандист',
-       4: 'Король контрабандистов'
+       first: 'Речной скороход',
+       second: 'Контрабандист',
+       third: 'Лихой контрабандист',
+       fourth: 'Король контрабандистов'
      },
      status: ['copper2','copper3','copper5','silver2'],
      inventory: [],
@@ -602,10 +602,10 @@ import {getRandom} from "./utils.js";
      className: 'Речники',
      career: 'Лодочник',
      stage: {
-       1: 'Гребец',
-       2: 'Лодочник',
-       3: 'Старшина',
-       4: 'Капитан баржи'
+       first: 'Гребец',
+       second: 'Лодочник',
+       third: 'Старшина',
+       fourth: 'Капитан баржи'
      },
      status: ['silver1','silver2','silver3','silver5'],
      inventory: [],
@@ -616,10 +616,10 @@ import {getRandom} from "./utils.js";
      className: 'Речники',
      career: 'Лоцман',
      stage: {
-       1: 'Вперёдсмотрящий',
-       2: 'Лоцман',
-       3: 'Кормчий',
-       4: 'Навигатор'
+       first: 'Вперёдсмотрящий',
+       second: 'Лоцман',
+       third: 'Кормчий',
+       fourth: 'Навигатор'
      },
      status: ['copper4','silver1','silver3','silver5'],
      inventory: [],
@@ -630,10 +630,10 @@ import {getRandom} from "./utils.js";
      className: 'Речники',
      career: 'Моряк',
      stage: {
-       1: 'Береговик',
-       2: 'Моряк',
-       3: 'Боцман',
-       4: 'Капитан корабля'
+       first: 'Береговик',
+       second: 'Моряк',
+       third: 'Боцман',
+       fourth: 'Капитан корабля'
      },
      status: ['silver1','silver3','silver5','gold2'],
      inventory: [],
@@ -644,10 +644,10 @@ import {getRandom} from "./utils.js";
      className: 'Речники',
      career: 'Побережник',
      stage: {
-       1: 'Мародёр',
-       2: 'Побережник',
-       3: 'Речной пират',
-       4: 'Капитан побережников'
+       first: 'Мародёр',
+       second: 'Побережник',
+       third: 'Речной пират',
+       fourth: 'Капитан побережников'
      },
      status: ['copper2','copper3','copper5','silver2'],
      inventory: [],
@@ -658,10 +658,10 @@ import {getRandom} from "./utils.js";
      className: 'Речники',
      career: 'Речной житель',
      stage: {
-       1: 'Малёк',
-       2: 'Речной житель',
-       3: 'Речной старожил',
-       4: 'Речной староста'
+       first: 'Малёк',
+       second: 'Речной житель',
+       third: 'Речной старожил',
+       fourth: 'Речной староста'
      },
      status: ['copper2','copper3','copper5','silver2'],
      inventory: [],
@@ -672,10 +672,10 @@ import {getRandom} from "./utils.js";
      className: 'Речники',
      career: 'Речной стражник',
      stage: {
-       1: 'Новобранец Речной стражи',
-       2: 'Речной стражник',
-       3: 'Корабельный меч',
-       4: 'Командир корабельных мечей'
+       first: 'Новобранец Речной стражи',
+       second: 'Речной стражник',
+       third: 'Корабельный меч',
+       fourth: 'Командир корабельных мечей'
      },
      status: ['silver1','silver2','silver4','gold1'],
      inventory: [],
@@ -686,10 +686,10 @@ import {getRandom} from "./utils.js";
      className: 'Странники',
      career: 'Артист',
      stage: {
-       1: ' Уличный артист',
-       2: 'Артист',
-       3: 'Трубадур',
-       4: 'Глава труппы'
+       first: ' Уличный артист',
+       second: 'Артист',
+       third: 'Трубадур',
+       fourth: 'Глава труппы'
      },
      status: ['copper3','copper5','silver3','gold1'],
      inventory: [],
@@ -700,10 +700,10 @@ import {getRandom} from "./utils.js";
      className: 'Странники',
      career: 'Дорожный стражник',
      stage: {
-       1: 'Сборщик пошлин',
-       2: 'Дорожный стражник',
-       3: 'Сержант Дорожной стражи',
-       4: 'Капитан Дорожной стражи'
+       first: 'Сборщик пошлин',
+       second: 'Дорожный стражник',
+       third: 'Сержант Дорожной стражи',
+       fourth: 'Капитан Дорожной стражи'
      },
      status: ['copper5','silver2','silver4','gold1'],
      inventory: [],
@@ -714,10 +714,10 @@ import {getRandom} from "./utils.js";
      className: 'Странники',
      career: 'Коробейник',
      stage: {
-       1: ' Лоточник',
-       2: 'Коробейник',
-       3: 'Бывалый коробейник',
-       4: 'Странствующий торговец'
+       first: ' Лоточник',
+       second: 'Коробейник',
+       third: 'Бывалый коробейник',
+       fourth: 'Странствующий торговец'
      },
      status: ['copper1','copper4','silver1','silver3'],
      inventory: [],
@@ -728,10 +728,10 @@ import {getRandom} from "./utils.js";
      className: 'Странники',
      career: 'Кучер',
      stage: {
-       1: 'Форейтор',
-       2: 'Кучер',
-       3: 'Хозяин дилижанса',
-       4: 'Распорядитель маршрута'
+       first: 'Форейтор',
+       second: 'Кучер',
+       third: 'Хозяин дилижанса',
+       fourth: 'Распорядитель маршрута'
      },
      status: ['silver1','silver2','silver3','silver5'],
      inventory: [],
@@ -742,10 +742,10 @@ import {getRandom} from "./utils.js";
      className: 'Странники',
      career: 'Охотник за головами',
      stage: {
-       1: 'Ловец воров',
-       2: 'Охотник за головами',
-       3: 'Мастер-поимщик',
-       4: 'Старший поимщик'
+       first: 'Ловец воров',
+       second: 'Охотник за головами',
+       third: 'Мастер-поимщик',
+       fourth: 'Старший поимщик'
      },
      status: ['silver1','silver3','silver5','gold1'],
      inventory: [],
@@ -756,10 +756,10 @@ import {getRandom} from "./utils.js";
      className: 'Странники',
      career: 'Охотник на ведьм',
      stage: {
-       1: 'Дознаватель',
-       2: 'Охотник на ведьм',
-       3: 'Инквизитор',
-       4: 'Великий инквизитор'
+       first: 'Дознаватель',
+       second: 'Охотник на ведьм',
+       third: 'Инквизитор',
+       fourth: 'Великий инквизитор'
      },
      status: ['silver1','silver3','silver5','gold1'],
      inventory: [],
@@ -770,10 +770,10 @@ import {getRandom} from "./utils.js";
      className: 'Странники',
      career: 'Посыльный',
      stage: {
-       1: 'Гонец',
-       2: 'Посыльный',
-       3: 'Курьер',
-       4: 'Капитан курьеров'
+       first: 'Гонец',
+       second: 'Посыльный',
+       third: 'Курьер',
+       fourth: 'Капитан курьеров'
      },
      status: ['copper3','silver1','silver3','silver5'],
      inventory: [],
@@ -784,10 +784,10 @@ import {getRandom} from "./utils.js";
      className: 'Странники',
      career: 'Флагеллант',
      stage: {
-       1: 'Фанатик',
-       2: 'Флагеллант',
-       3: 'Кающийся грешник',
-       4: 'Пророк Судного Дня'
+       first: 'Фанатик',
+       second: 'Флагеллант',
+       third: 'Кающийся грешник',
+       fourth: 'Пророк Судного Дня'
      },
      status: ['copper0','copper0','copper0','copper0'],
      inventory: [],
@@ -798,10 +798,10 @@ import {getRandom} from "./utils.js";
      className: 'Шельмы',
      career: 'Бандит',
      stage: {
-       1: 'Громила',
-       2: 'Бандит',
-       3: 'Главарь банды',
-       4: ' Король преступного мира'
+       first: 'Громила',
+       second: 'Бандит',
+       third: 'Главарь банды',
+       fourth: ' Король преступного мира'
      },
      status: ['copper3','copper5','silver3','silver5'],
      inventory: [],
@@ -812,10 +812,10 @@ import {getRandom} from "./utils.js";
      className: 'Шельмы',
      career: 'Ведьма',
      stage: {
-       1: 'Ворожея',
-       2: 'Ведьма',
-       3: 'Ведунья',
-       4: 'Колдунья'
+       first: 'Ворожея',
+       second: 'Ведьма',
+       third: 'Ведунья',
+       fourth: 'Колдунья'
      },
      status: ['copper1','copper2','copper3','copper5'],
      inventory: [],
@@ -826,10 +826,10 @@ import {getRandom} from "./utils.js";
      className: 'Шельмы',
      career: 'Вор',
      stage: {
-       1: 'Проныра',
-       2: 'Вор',
-       3: 'Искусный вор',
-       4: 'Взломщик'
+       first: 'Проныра',
+       second: 'Вор',
+       third: 'Искусный вор',
+       fourth: 'Взломщик'
      },
      status: ['copper1','copper3','copper5','silver3'],
      inventory: [],
@@ -840,10 +840,10 @@ import {getRandom} from "./utils.js";
      className: 'Шельмы',
      career: 'Гробокопатель',
      stage: {
-       1: 'Поставщик трупов',
-       2: 'Гробокопатель',
-       3: 'Расхититель гробниц',
-       4: 'Охотник за сокровищами'
+       first: 'Поставщик трупов',
+       second: 'Гробокопатель',
+       third: 'Расхититель гробниц',
+       fourth: 'Охотник за сокровищами'
      },
      status: ['copper2','copper3','silver1','silver5'],
      inventory: [],
@@ -854,10 +854,10 @@ import {getRandom} from "./utils.js";
      className: 'Шельмы',
      career: 'Пройдоха',
      stage: {
-       1: 'Прохиндей',
-       2: 'Пройдоха',
-       3: 'Посредник',
-       4: 'Делец'
+       first: 'Прохиндей',
+       second: 'Пройдоха',
+       third: 'Посредник',
+       fourth: 'Делец'
      },
      status: ['copper1','copper3','silver1','silver3'],
      inventory: [],
@@ -868,10 +868,10 @@ import {getRandom} from "./utils.js";
      className: 'Шельмы',
      career: 'Разбойник',
      stage: {
-       1: 'Грабитель',
-       2: 'Разбойник',
-       3: 'Атаман разбойников ',
-       4: 'Король разбойников'
+       first: 'Грабитель',
+       second: 'Разбойник',
+       third: 'Атаман разбойников ',
+       fourth: 'Король разбойников'
      },
      status: ['copper1','copper2','copper4','silver2'],
      inventory: [],
@@ -882,10 +882,10 @@ import {getRandom} from "./utils.js";
      className: 'Шельмы',
      career: 'Скупщик краденого',
      stage: {
-       1: 'Барышник',
-       2: 'Скупщик краденого',
-       3: 'Ломбардщик',
-       4: ' Теневой воротила'
+       first: 'Барышник',
+       second: 'Скупщик краденого',
+       third: 'Ломбардщик',
+       fourth: ' Теневой воротила'
      },
      status: ['silver1','silver2','silver3','silver4'],
      inventory: [],
@@ -896,10 +896,10 @@ import {getRandom} from "./utils.js";
      className: 'Шельмы',
      career: 'Шарлатан',
      stage: {
-       1: 'Мошенник',
-       2: 'Шарлатан',
-       3: 'Аферист',
-       4: 'Махинатор'
+       first: 'Мошенник',
+       second: 'Шарлатан',
+       third: 'Аферист',
+       fourth: 'Махинатор'
      },
      status: ['copper3','copper5','silver2','silver4'],
      inventory: [],
@@ -913,18 +913,22 @@ import {getRandom} from "./utils.js";
     const getRace = document.querySelector('.main__block_input-race').getAttribute('data-race');
     const classNumber = getRandom(MIN_CLASS_NUMBER,MAX_CLASS_NUMBER);
     const classEnter = document.querySelector('.main__block_input-class');
+    const careerEnter = document.querySelector('.main__block_input-career');
+    const rangEnter = document.querySelector('.main__block_input-rang');
+    const rangNameEnter = document.querySelector('.main__block_input-rangName');
 
     arrayClass.forEach((element) => {
       let rangeClassNumber = element.race[getRace].split('-');
 
-      console.log(rangeClassNumber);
-    
       if (classNumber === Number(element.race[getRace])) {
         classEnter.value = element.className;
+        careerEnter.value = element.career;
+        rangEnter.value = Object.keys(element.stage)[0];
+        rangNameEnter.value = element.stage.first;
       }
     });
    });
-   
+
 
  }
 
