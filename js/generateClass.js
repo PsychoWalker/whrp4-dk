@@ -15,7 +15,7 @@ import {getRandom} from "./utils.js";
       third: 'Подстрекатель',
       fourth: 'Демагог'
     },
-    status: ['copper1','copper2','copper3','cooper5'],
+    status: ['Медный-1','Медный-2','Медный-3','cooper5'],
     inventory: ['дюжина гвоздей, молоток, писчий набор, стопка листовок','кожаная куртка','памфлетист, ручное оружие','внушительная шляпа, печатный станок, покровитель, трое памфлетистов'],
     classSkill: '',
     race: ['1','1-2','1-2','none','none']
@@ -29,7 +29,7 @@ import {getRandom} from "./utils.js";
       third: 'Сержант городской стражи',
       fourth: 'Капитан городской стражи'
     },
-    status: ['copper3','silver1','silver3','gold1'],
+    status: ['Медный-3','Серебряный-1','Серебряный-3','Золотой-1'],
     inventory: ['кожаная куртка, мундир, ручное оружие','ламповое масло, масляная лампа на шесте, медный значок','знак служебного положения, кираса, шлем', 'верховая лошадь, отличная шляпа,\n' +
     'отличное ручное оружие, отличный знак служебного положения, седло и сбруя'],
     classSkill: '',
@@ -44,7 +44,7 @@ import {getRandom} from "./utils.js";
       third: 'Городской старшина',
       fourth: 'Бургомистр'
     },
-    status: ['silver1','silver2','silver5','gold1'],
+    status: ['Серебряный-1','Серебряный-2','Серебряный-5','Золотой-1'],
     inventory: ['крепкие башмаки, съёмная комната','писчий набор, скромный городской дом, слуга','городской дом, карета с кучером', 'верховая лошадь, отличная шляпа,\n' +
     'большой городской дом с садом и слугами, камердинер, отличная одежда, цепь бургомистра'],
     classSkill: '',
@@ -59,7 +59,7 @@ import {getRandom} from "./utils.js";
       third: 'Городской старшина',
       fourth: 'Бургомистр'
     },
-    status: ['copper3','silver1','silver2','silver3'],
+    status: ['Медный-3','Серебряный-1','Серебряный-2','Серебряный-3'],
     inventory: ['маленькая, но злобная собака, мешок, праща и 10 пуль',' ловушки на крыс, шест для мёртвых крыс','кожаная куртка, лампа Давриха, ручное\n' +
     'оружие', 'большая и злобная собака мешок с ядовитой приманкой (10 доз сердцебоя), помощник'],
     classSkill: '',
@@ -74,7 +74,7 @@ import {getRandom} from "./utils.js";
       third: 'Негоциант',
       fourth: 'Патриций'
     },
-    status: ['copper2','silver5','gold1','gold3'],
+    status: ['Медный-2','Серебряный-5','Золотой-1','Золотой-3'],
     inventory: ['абак, мул, парусиновый навес, повозка, 3d10 серебряных шиллингов','лицензия Гильдии Купцов, речная баржа или 2 фургона, 20 золотых крон',' городской дом с прислугой, склад, 100 золотых крон', 'городской особняк, отличная одежда, 2 речных баржи или 4 фургона, 2 склада, 1000 золотых крон'],
     classSkill: '',
     race: ['8','13-16','11-14','4-8','none']
@@ -88,7 +88,7 @@ import {getRandom} from "./utils.js";
       third: 'Старший попрошайка',
       fourth: 'Король попрошаек'
     },
-    status: ['copper0','copper2','copper4','silver2'],
+    status: ['copper0','Медный-2','Медный-4','Серебряный-2'],
     inventory: [],
     classSkill: '',
     race: ['9-10','17','15-18','none','none']
@@ -102,7 +102,7 @@ import {getRandom} from "./utils.js";
       third: 'Мастер-ремесленник',
       fourth: 'Гильдмейстер'
     },
-    status: ['copper2','silver1','silver3','gold1'],
+    status: ['Медный-2','Серебряный-1','Серебряный-3','Золотой-1'],
     inventory: [],
     classSkill: '',
     race: ['11-12','18-23','19-23','9-11','1-5']
@@ -116,7 +116,7 @@ import {getRandom} from "./utils.js";
       third: 'Старший следователь',
       fourth: 'Детектив'
     },
-    status: ['silver1','silver2','silver3','silver5'],
+    status: ['Серебряный-1','Серебряный-2','Серебряный-3','Серебряный-5'],
     inventory: [],
     classSkill: '',
     race: ['13','24-25','24-25','12-13','none']
@@ -130,7 +130,7 @@ import {getRandom} from "./utils.js";
       third: 'Чемпион арены',
       fourth: 'Легенда арены'
     },
-    status: ['silver1','silver2','silver3','silver5'],
+    status: ['Серебряный-1','Серебряный-2','Серебряный-3','Серебряный-5'],
     inventory: [],
     classSkill: '',
     race: ['14','26-28','26','14-15','6-7']
@@ -144,7 +144,7 @@ import {getRandom} from "./utils.js";
       third: 'Жрец-сержант',
       fourth: 'Жрец-капитан'
     },
-    status: ['copper2','silver2','silver3','silver4'],
+    status: ['Медный-2','Серебряный-2','Серебряный-3','Серебряный-4'],
     inventory: [],
     classSkill: '',
     race: ['15','none','none','none','none']
@@ -158,7 +158,7 @@ import {getRandom} from "./utils.js";
       third: 'Сержант кавалерии',
       fourth: 'Офицер кавалерии'
     },
-    status: ['silver2','silver4','gold1','gold2'],
+    status: ['Серебряный-2','Серебряный-4','Золотой-1','Золотой-2'],
     inventory: [],
     classSkill: '',
     race: ['16-17','none','none','16-19','8-12']
@@ -172,7 +172,7 @@ import {getRandom} from "./utils.js";
       third: 'Наёмный убийца',
       fourth: 'Ассасин'
     },
-    status: ['copper2','silver1','silver4','gold1'],
+    status: ['Медный-2','Серебряный-1','Серебряный-4','Золотой-1'],
     inventory: [],
     classSkill: '',
     race: ['18','29-31','none','20','none']
@@ -186,7 +186,7 @@ import {getRandom} from "./utils.js";
       third: 'Гвардеец',
       fourth: 'Офице гвардии'
     },
-    status: ['silver1','silver2','silver3','silver5'],
+    status: ['Серебряный-1','Серебряный-2','Серебряный-3','Серебряный-5'],
     inventory: [],
     classSkill: '',
     race: ['19-20','32-34','27-28','21-22','13-14']
@@ -200,7 +200,7 @@ import {getRandom} from "./utils.js";
       third: 'Первый рыцарь',
       fourth: 'Рыцарь Внутреннего Круга'
     },
-    status: ['silver3','silver5','gold2','gold4'],
+    status: ['Серебряный-3','Серебряный-5','Золотой-2','gold4'],
     inventory: [],
     classSkill: '',
     race: ['21','none','none','23','15-16']
@@ -214,7 +214,7 @@ import {getRandom} from "./utils.js";
       third: 'Сержант',
       fourth: 'Офицер'
     },
-    status: ['silver1','silver3','silver5','gold1'],
+    status: ['Серебряный-1','Серебряный-3','Серебряный-5','Золотой-1'],
     inventory: [],
     classSkill: '',
     race: ['22-25','35-37','29-31','24-25','17-20']
@@ -228,7 +228,7 @@ import {getRandom} from "./utils.js";
       third: 'Убийца драконов',
       fourth: 'Убийца демонов'
     },
-    status: ['copper2','copper2','copper2','copper2'],
+    status: ['Медный-2','Медный-2','Медный-2','Медный-2'],
     inventory: [],
     classSkill: '',
     race: ['none','38-41','none','none','none']
@@ -242,7 +242,7 @@ import {getRandom} from "./utils.js";
       third: 'Мастер-аптекарь',
       fourth: 'Провизор'
     },
-    status: ['copper3','silver1','silver3','gold1'],
+    status: ['Медный-3','Серебряный-1','Серебряный-3','Золотой-1'],
     inventory: [],
     classSkill: '',
     race: ['26','42','32','26-27','none']
@@ -256,7 +256,7 @@ import {getRandom} from "./utils.js";
       third: 'Доктор',
       fourth: 'Придворный врач'
     },
-    status: ['copper4','silver3','silver5','gold1'],
+    status: ['Медный-4','Серебряный-3','Серебряный-5','Золотой-1'],
     inventory: [],
     classSkill: '',
     race: ['27','43','33-34','28-29','none']
@@ -270,7 +270,7 @@ import {getRandom} from "./utils.js";
       third: 'Верховный жрец',
       fourth: 'Предстоятель'
     },
-    status: ['copper2','copper2','copper2','copper2'],
+    status: ['Медный-2','Медный-2','Медный-2','Медный-2'],
     inventory: [],
     classSkill: '',
     race: ['28-31','none','none','none','none']
@@ -284,7 +284,7 @@ import {getRandom} from "./utils.js";
       third: 'Барристер',
       fourth: 'Судья'
     },
-    status: ['copper4','silver3','gold1','gold2'],
+    status: ['Медный-4','Серебряный-3','Золотой-1','Золотой-2'],
     inventory: [],
     classSkill: '',
     race: ['33','44-45','35-36','30-33','none']
@@ -298,7 +298,7 @@ import {getRandom} from "./utils.js";
       third: 'Мастер-инженер',
       fourth: 'Патентованный инженер'
     },
-    status: ['copper4','silver2','silver4','copper2'],
+    status: ['Медный-4','Серебряный-2','Серебряный-4','Медный-2'],
     inventory: [],
     classSkill: '',
     race: ['34','46-48','37','none','none']
@@ -313,7 +313,7 @@ import {getRandom} from "./utils.js";
       third: 'Магистр',
       fourth: 'Верховный маг'
     },
-    status: ['cooper3','silver3','gold1','gold2'],
+    status: ['cooper3','Серебряный-3','Золотой-1','Золотой-2'],
     inventory: [],
     classSkill: '',
     race: ['35','none','none','34-37','21-24']
@@ -328,7 +328,7 @@ import {getRandom} from "./utils.js";
       third: 'Аббат',
       fourth: 'Генеральный настоятель'
     },
-    status: ['copper1','copper4','silver2', 'silver5'],
+    status: ['Медный-1','Медный-4','Серебряный-2', 'Серебряный-5'],
     classSkill: '',
     race: ['36-37', 'none', 'none', 'none' ]
   };
@@ -341,7 +341,7 @@ import {getRandom} from "./utils.js";
       third: 'Академик',
       fourth: 'Профессор'
     },
-    status: ['copper3','silver2','silver5','gold1'],
+    status: ['Медный-3','Серебряный-2','Серебряный-5','Золотой-1'],
     inventory: [],
     classSkill: '',
     race: ['38-39', '49-50', '40', '38-41', '25' ]
@@ -355,7 +355,7 @@ import {getRandom} from "./utils.js";
       third: 'Шериф',
       fourth: 'Магистрат'
     },
-    status: ['copper3','silver2','silver5','gold1'],
+    status: ['Медный-3','Серебряный-2','Серебряный-5','Золотой-1'],
     inventory: [],
     classSkill: '',
     race: ['40', '51-52', '40', 'none', 'none' ]
@@ -369,7 +369,7 @@ import {getRandom} from "./utils.js";
       third: 'Знахарь-наставник',
       fourth: 'Премудрый знахарь'
     },
-    status: ['copper1','copper2','copper3','copper5'],
+    status: ['Медный-1','Медный-2','Медный-3','Медный-5'],
     inventory: [],
     classSkill: '',
     race: ['41', 'none', 'none', 'none', 'none' ]
@@ -383,7 +383,7 @@ import {getRandom} from "./utils.js";
       third: 'Прорицатель',
       fourth: 'Провидец'
     },
-    status: ['copper1','copper2','copper3','copper4'],
+    status: ['Медный-1','Медный-2','Медный-3','Медный-4'],
     inventory: [],
     classSkill: '',
     race: ['42', 'none', 'none', 'none', '26-30' ]
@@ -397,7 +397,7 @@ import {getRandom} from "./utils.js";
       third: 'Следопыт',
       fourth: 'Егермейстер'
     },
-    status: ['copper12','copper4','silver1','silver3'],
+    status: ['Медный-12','Медный-4','Серебряный-1','Серебряный-3'],
     inventory: [],
     classSkill: '',
     race: ['43-44', '53-54', '41-42', '42-44', '31-40' ]
@@ -411,7 +411,7 @@ import {getRandom} from "./utils.js";
       third: 'Землепроходец',
       fourth: 'Первооткрыватель'
     },
-    status: ['copper3','copper5','silver1','silver5'],
+    status: ['Медный-3','Медный-5','Серебряный-1','Серебряный-5'],
     inventory: [],
     classSkill: '',
     race: ['45', '55', '43', '45-50', '41-51' ]
@@ -425,7 +425,7 @@ import {getRandom} from "./utils.js";
       third: 'Рудознатец',
       fourth: 'Бригадир рудокопов'
     },
-    status: ['copper2','copper4','copper5','silver4'],
+    status: ['Медный-2','Медный-4','Медный-5','Серебряный-4'],
     inventory: [],
     classSkill: '',
     race: ['46', '56-60', '40', '44', 'none' ]
@@ -439,7 +439,7 @@ import {getRandom} from "./utils.js";
       third: 'Член схода',
       fourth: 'Староста'
     },
-    status: ['copper2','copper3','copper4','silver2'],
+    status: ['Медный-2','Медный-3','Медный-4','Серебряный-2'],
     inventory: [],
     classSkill: '',
     race: ['47-51', '61', '45-47', 'none', 'neone' ]
@@ -453,7 +453,7 @@ import {getRandom} from "./utils.js";
       third: 'Знаток трав',
       fourth: 'Премудрый травник'
     },
-    status: ['copper2','copper4','silver1','siver3'],
+    status: ['Медный-2','Медный-4','Серебряный-1','siver3'],
     inventory: [],
     classSkill: '',
     race: ['52', 'none', '48-50', '51-52', '52-58' ]
@@ -467,7 +467,7 @@ import {getRandom} from "./utils.js";
       third: 'Магнат',
       fourth: 'Аристократ'
     },
-    status: ['gold1','gold3','gold5','gold7'],
+    status: ['Золотой-1','Золотой-3','gold5','gold7'],
     inventory: [],
     classSkill: '',
     race: ['53', '62', 'none', '53-55', '59-64' ]
@@ -481,7 +481,7 @@ import {getRandom} from "./utils.js";
       third: 'Мастер-дуэлянт',
       fourth: 'Судебный поединщик'
     },
-    status: ['silver3','silver5','gold1','gold3'],
+    status: ['Серебряный-3','Серебряный-5','Золотой-1','Золотой-3'],
     inventory: [],
     classSkill: '',
     race: ['54', '63', 'none', '56-57', 'none' ]
@@ -495,7 +495,7 @@ import {getRandom} from "./utils.js";
       third: 'Камердинер',
       fourth: 'Домоправитель'
     },
-    status: ['silver1','silver3','silver5','gold1'],
+    status: ['Серебряный-1','Серебряный-3','Серебряный-5','Золотой-1'],
     inventory: [],
     classSkill: '',
     race: ['55-57', '64', '51-56', 'none', 'none' ]
@@ -509,7 +509,7 @@ import {getRandom} from "./utils.js";
       third: 'Сенешаль',
       fourth: 'Губернатор'
     },
-    status: ['silver1','silver3','gold1','gold3'],
+    status: ['Серебряный-1','Серебряный-3','Золотой-1','Золотой-3'],
     inventory: [],
     classSkill: '',
     race: ['58', '65-66', '57-58', '58-59', 'none' ]
@@ -523,7 +523,7 @@ import {getRandom} from "./utils.js";
       third: 'Сановник',
       fourth: 'Канцлер'
     },
-    status: ['silver2','silver4','gold1','gold3'],
+    status: ['Серебряный-2','Серебряный-4','Золотой-1','Золотой-3'],
     inventory: [],
     classSkill: '',
     race: ['59', '67-68', '59', '60-61', '65-68' ]
@@ -537,7 +537,7 @@ import {getRandom} from "./utils.js";
       third: 'Мэтр',
       fourth: 'Маэстро'
     },
-    status: ['silver1','silver3','silver5','gold2'],
+    status: ['Серебряный-1','Серебряный-3','Серебряный-5','Золотой-2'],
     inventory: [],
     classSkill: '',
     race: ['60', '69', '60-61', '62', '69-72' ]
@@ -551,7 +551,7 @@ import {getRandom} from "./utils.js";
       third: 'Агент',
       fourth: 'Глава шпионов'
     },
-    status: ['silver1','silver3','gold1','gold4'],
+    status: ['Серебряный-1','Серебряный-3','Золотой-1','gold4'],
     inventory: [],
     classSkill: '',
     race: ['61', '70', '62', '63-65', '73-76' ]
@@ -565,7 +565,7 @@ import {getRandom} from "./utils.js";
       third: 'Дипломат',
       fourth: 'Посол'
     },
-    status: ['silver2','silver4','gold2','gold5'],
+    status: ['Серебряный-2','Серебряный-4','Золотой-2','gold5'],
     inventory: [],
     classSkill: '',
     race: ['62', '71-72', '63', '66-68', '77-83' ]
@@ -579,7 +579,7 @@ import {getRandom} from "./utils.js";
        third: 'Бригадир докеров',
        fourth: 'Докмейстер'
      },
-     status: ['copper3','silver1','silver3','silver5'],
+     status: ['Медный-3','Серебряный-1','Серебряный-3','Серебряный-5'],
      inventory: [],
      classSkill: '',
      race: ['63-64', '73-74', '64-66', 'none', 'none' ]
@@ -593,7 +593,7 @@ import {getRandom} from "./utils.js";
        third: 'Лихой контрабандист',
        fourth: 'Король контрабандистов'
      },
-     status: ['copper2','copper3','copper5','silver2'],
+     status: ['Медный-2','Медный-3','Медный-5','Серебряный-2'],
      inventory: [],
      classSkill: '',
      race: ['65', '75-76', '67-70', '69', 'none' ]
@@ -607,7 +607,7 @@ import {getRandom} from "./utils.js";
        third: 'Старшина',
        fourth: 'Капитан баржи'
      },
-     status: ['silver1','silver2','silver3','silver5'],
+     status: ['Серебряный-1','Серебряный-2','Серебряный-3','Серебряный-5'],
      inventory: [],
      classSkill: '',
      race: ['66-67', '77-78', '70', '70', 'none' ]
@@ -621,7 +621,7 @@ import {getRandom} from "./utils.js";
        third: 'Кормчий',
        fourth: 'Навигатор'
      },
-     status: ['copper4','silver1','silver3','silver5'],
+     status: ['Медный-4','Серебряный-1','Серебряный-3','Серебряный-5'],
      inventory: [],
      classSkill: '',
      race: ['68', '79 ', '72', 'none', 'none' ]
@@ -635,7 +635,7 @@ import {getRandom} from "./utils.js";
        third: 'Боцман',
        fourth: 'Капитан корабля'
      },
-     status: ['silver1','silver3','silver5','gold2'],
+     status: ['Серебряный-1','Серебряный-3','Серебряный-5','Золотой-2'],
      inventory: [],
      classSkill: '',
      race: ['69-70', '80', '73', '71-85', 'none' ]
@@ -649,7 +649,7 @@ import {getRandom} from "./utils.js";
        third: 'Речной пират',
        fourth: 'Капитан побережников'
      },
-     status: ['copper2','copper3','copper5','silver2'],
+     status: ['Медный-2','Медный-3','Медный-5','Серебряный-2'],
      inventory: [],
      classSkill: '',
      race: ['71', '81', 'none', 'none', '84' ]
@@ -663,7 +663,7 @@ import {getRandom} from "./utils.js";
        third: 'Речной старожил',
        fourth: 'Речной староста'
      },
-     status: ['copper2','copper3','copper5','silver2'],
+     status: ['Медный-2','Медный-3','Медный-5','Серебряный-2'],
      inventory: [],
      classSkill: '',
      race: ['72-74', '82-83', '74-76', 'none', 'none' ]
@@ -677,7 +677,7 @@ import {getRandom} from "./utils.js";
        third: 'Корабельный меч',
        fourth: 'Командир корабельных мечей'
      },
-     status: ['silver1','silver2','silver4','gold1'],
+     status: ['Серебряный-1','Серебряный-2','Серебряный-4','Золотой-1'],
      inventory: [],
      classSkill: '',
      race: ['75-76', 'none', '77', 'none', 'none' ]
@@ -691,7 +691,7 @@ import {getRandom} from "./utils.js";
        third: 'Трубадур',
        fourth: 'Глава труппы'
      },
-     status: ['copper3','copper5','silver3','gold1'],
+     status: ['Медный-3','Медный-5','Серебряный-3','Золотой-1'],
      inventory: [],
      classSkill: '',
      race: ['77-78', '84-85', '78-80', '86-88', '85-89' ]
@@ -705,7 +705,7 @@ import {getRandom} from "./utils.js";
        third: 'Сержант Дорожной стражи',
        fourth: 'Капитан Дорожной стражи'
      },
-     status: ['copper5','silver2','silver4','gold1'],
+     status: ['Медный-5','Серебряный-2','Серебряный-4','Золотой-1'],
      inventory: [],
      classSkill: '',
      race: ['79', 'none', '81', 'none', 'none' ]
@@ -719,7 +719,7 @@ import {getRandom} from "./utils.js";
        third: 'Бывалый коробейник',
        fourth: 'Странствующий торговец'
      },
-     status: ['copper1','copper4','silver1','silver3'],
+     status: ['Медный-1','Медный-4','Серебряный-1','Серебряный-3'],
      inventory: [],
      classSkill: '',
      race: ['80', '86-87', '82-83', 'none', 'none' ]
@@ -733,7 +733,7 @@ import {getRandom} from "./utils.js";
        third: 'Хозяин дилижанса',
        fourth: 'Распорядитель маршрута'
      },
-     status: ['silver1','silver2','silver3','silver5'],
+     status: ['Серебряный-1','Серебряный-2','Серебряный-3','Серебряный-5'],
      inventory: [],
      classSkill: '',
      race: ['81', '88', '84-85', 'none', 'none' ]
@@ -747,7 +747,7 @@ import {getRandom} from "./utils.js";
        third: 'Мастер-поимщик',
        fourth: 'Старший поимщик'
      },
-     status: ['silver1','silver3','silver5','gold1'],
+     status: ['Серебряный-1','Серебряный-3','Серебряный-5','Золотой-1'],
      inventory: [],
      classSkill: '',
      race: ['82', '89-92', '86', '89-91 ', '90-91' ]
@@ -761,7 +761,7 @@ import {getRandom} from "./utils.js";
        third: 'Инквизитор',
        fourth: 'Великий инквизитор'
      },
-     status: ['silver1','silver3','silver5','gold1'],
+     status: ['Серебряный-1','Серебряный-3','Серебряный-5','Золотой-1'],
      inventory: [],
      classSkill: '',
      race: ['83', 'none', 'none', 'none', 'none' ]
@@ -775,7 +775,7 @@ import {getRandom} from "./utils.js";
        third: 'Курьер',
        fourth: 'Капитан курьеров'
      },
-     status: ['copper3','silver1','silver3','silver5'],
+     status: ['Медный-3','Серебряный-1','Серебряный-3','Серебряный-5'],
      inventory: [],
      classSkill: '',
      race: ['84', '93-94', '87-88', '92', '92-94' ]
@@ -803,7 +803,7 @@ import {getRandom} from "./utils.js";
        third: 'Главарь банды',
        fourth: ' Король преступного мира'
      },
-     status: ['copper3','copper5','silver3','silver5'],
+     status: ['Медный-3','Медный-5','Серебряный-3','Серебряный-5'],
      inventory: [],
      classSkill: '',
      race: ['87', '95', '89', 'none', 'none' ]
@@ -817,7 +817,7 @@ import {getRandom} from "./utils.js";
        third: 'Ведунья',
        fourth: 'Колдунья'
      },
-     status: ['copper1','copper2','copper3','copper5'],
+     status: ['Медный-1','Медный-2','Медный-3','Медный-5'],
      inventory: [],
      classSkill: '',
      race: ['88', 'none', 'none', 'none', 'none' ]
@@ -831,7 +831,7 @@ import {getRandom} from "./utils.js";
        third: 'Искусный вор',
        fourth: 'Взломщик'
      },
-     status: ['copper1','copper3','copper5','silver3'],
+     status: ['Медный-1','Медный-3','Медный-5','Серебряный-3'],
      inventory: [],
      classSkill: '',
      race: ['89-91', '96', '90-93', 'none', 'none' ]
@@ -845,7 +845,7 @@ import {getRandom} from "./utils.js";
        third: 'Расхититель гробниц',
        fourth: 'Охотник за сокровищами'
      },
-     status: ['copper2','copper3','silver1','silver5'],
+     status: ['Медный-2','Медный-3','Серебряный-1','Серебряный-5'],
      inventory: [],
      classSkill: '',
      race: ['92', 'none', '94', 'none', 'none' ]
@@ -859,7 +859,7 @@ import {getRandom} from "./utils.js";
        third: 'Посредник',
        fourth: 'Делец'
      },
-     status: ['copper1','copper3','silver1','silver3'],
+     status: ['Медный-1','Медный-3','Серебряный-1','Серебряный-3'],
      inventory: [],
      classSkill: '',
      race: ['93-94', 'none', '95-97', '93-94', 'none' ]
@@ -873,7 +873,7 @@ import {getRandom} from "./utils.js";
        third: 'Атаман разбойников ',
        fourth: 'Король разбойников'
      },
-     status: ['copper1','copper2','copper4','silver2'],
+     status: ['Медный-1','Медный-2','Медный-4','Серебряный-2'],
      inventory: [],
      classSkill: '',
      race: ['95-98', '97-99', '98', '95-97 ', '95-100' ]
@@ -887,7 +887,7 @@ import {getRandom} from "./utils.js";
        third: 'Ломбардщик',
        fourth: ' Теневой воротила'
      },
-     status: ['silver1','silver2','silver3','silver4'],
+     status: ['Серебряный-1','Серебряный-2','Серебряный-3','Серебряный-4'],
      inventory: [],
      classSkill: '',
      race: ['99', '100', '99', 'none', 'none' ]
@@ -901,34 +901,41 @@ import {getRandom} from "./utils.js";
        third: 'Аферист',
        fourth: 'Махинатор'
      },
-     status: ['copper3','copper5','silver2','silver4'],
+     status: ['Медный-3','Медный-5','Серебряный-2','Серебряный-4'],
      inventory: [],
      classSkill: '',
      race: ['100', 'none', '100', '98-100', 'none' ]
    };
+
    const generateButton = document.querySelector('.generateClass');
 
+   const getClass = () => {
+     const getRace = document.querySelector('.main__block_input-race').getAttribute('data-race');
+     const classNumber = getRandom(MIN_CLASS_NUMBER,MAX_CLASS_NUMBER);
+     const classEnter = document.querySelector('.main__block_input-class');
+     const careerEnter = document.querySelector('.main__block_input-career');
+     const rangEnter = document.querySelector('.main__block_input-rang');
+     const rangNameEnter = document.querySelector('.main__block_input-rangName');
+     const status = document.querySelector('.main__block_input-status');
+
+     arrayClass.forEach((element) => {
+       let rangeClassNumber = element.race[getRace].split('-')[0];
+       if (classNumber === Number(rangeClassNumber)) {
+         classEnter.value = element.className;
+         careerEnter.value = element.career;
+         rangEnter.value = Object.keys(element.stage)[0];
+         rangNameEnter.value = element.stage.first;
+         status.value = element.status[0];
+
+       } else if (classNumber === 'none') {
+         getClass();
+       }
+     });
+   }
 
    generateButton.addEventListener('click', () => {
-    const getRace = document.querySelector('.main__block_input-race').getAttribute('data-race');
-    const classNumber = getRandom(MIN_CLASS_NUMBER,MAX_CLASS_NUMBER);
-    const classEnter = document.querySelector('.main__block_input-class');
-    const careerEnter = document.querySelector('.main__block_input-career');
-    const rangEnter = document.querySelector('.main__block_input-rang');
-    const rangNameEnter = document.querySelector('.main__block_input-rangName');
-
-    arrayClass.forEach((element) => {
-      let rangeClassNumber = element.race[getRace].split('-');
-
-      if (classNumber === Number(element.race[getRace])) {
-        classEnter.value = element.className;
-        careerEnter.value = element.career;
-        rangEnter.value = Object.keys(element.stage)[0];
-        rangNameEnter.value = element.stage.first;
-      }
-    });
+     getClass();
    });
-
 
  }
 
