@@ -920,15 +920,16 @@ import {getRandom} from "./utils.js";
 
      arrayClass.forEach((element) => {
        let rangeClassNumber = element.race[getRace].split('-')[0];
+       console.log('Число выпало ' + classNumber + ' ' + rangeClassNumber);
+
        if (classNumber === Number(rangeClassNumber)) {
+         console.log(rangeClassNumber);
          classEnter.value = element.className;
          careerEnter.value = element.career;
          rangEnter.value = Object.keys(element.stage)[0];
          rangNameEnter.value = element.stage.first;
          status.value = element.status[0];
 
-       } else if (classNumber === 'none') {
-         getClass();
        }
      });
    }
