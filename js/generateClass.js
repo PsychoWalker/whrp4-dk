@@ -922,7 +922,7 @@ import {getRandom} from "./utils.js";
        let rangeClassNumber = element.race[getRace].split('-')[0];
        console.log('Число выпало ' + classNumber + ' ' + rangeClassNumber);
 
-       if (classNumber === Number(rangeClassNumber)) {
+       if (classNumber === Number(rangeClassNumber) || (classNumber >= element.race[getRace].split('-')[0] && classNumber <= element.race[getRace].split('-')[1])) {
          console.log(rangeClassNumber);
          classEnter.value = element.className;
          careerEnter.value = element.career;
