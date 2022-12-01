@@ -1,5 +1,5 @@
 import {getRandom} from "./utils.js";
-
+import {character} from "./character.js";
 
 const ageCharacterCreate = () => {
 
@@ -29,37 +29,39 @@ const ageCharacterCreate = () => {
         inputAge.value = 'Выберите расу';
         break;
     }
+    character.characterAge = inputAge.value;
   });
 }
 
 const riseCharacterCreate = () => {
 
   const generateRise = document.querySelector('.generateRise');
-  const inputRise = document.querySelector('.main__block_input-rise');
+  const inputHeight = document.querySelector('.main__block_input-rise');
 
   generateRise.addEventListener('click', () => {
     const race = document.querySelector('.main__block_input-race').value;
 
     switch (race) {
       case 'Человек':
-        inputRise.value = getRandom(150, 210);
+        inputHeight.value = getRandom(150, 210);
         break;
       case 'Полурослик':
-        inputRise.value = getRandom(93, 124);
+        inputHeight.value = getRandom(93, 124);
         break;
       case 'Дварф':
-        inputRise.value = getRandom(140, 165);
+        inputHeight.value = getRandom(140, 165);
         break;
       case 'Высший эльф':
-        inputRise.value = getRandom(190, 210);
+        inputHeight.value = getRandom(190, 210);
         break;
       case 'Лесной эльф':
-        inputRise.value = getRandom(190, 210);
+        inputHeight.value = getRandom(190, 210);
         break;
       case '':
-        inputRise.value = 'Выберите расу';
+        inputHeight.value = 'Выберите расу';
         break;
     }
+    character.characterHeight = inputHeight.value;
   });
 }
 
@@ -96,6 +98,7 @@ const hairCharacterCreate = () => {
         inputHair.value = 'Выберите расу';
         break;
     }
+    character.characterHair = inputHair.value;
   });
 }
 
@@ -132,6 +135,7 @@ const eyeCharacterCreate = () => {
         inputEye.value = 'Выберите расу';
         break;
     }
+    character.characterEyes = inputEye.value
   });
 }
 

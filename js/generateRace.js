@@ -1,4 +1,5 @@
 import {getRandom} from "./utils.js";
+import {character} from "./character.js";
 
 const randomRace = () => {
   const generateButton = document.querySelector('.generateRace');
@@ -22,6 +23,7 @@ const randomRace = () => {
       inputRace.value = 'Лесной эльф';
       inputRace.setAttribute('data-race', '4');
     }
+    character.characterRace = inputRace.value;
   });
 }
 

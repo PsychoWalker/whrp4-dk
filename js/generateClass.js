@@ -1,4 +1,5 @@
 import {getRandom} from "./utils.js";
+import {character} from "./character.js";
 
  const generateClass = () => {
   const arrayClass = [];
@@ -920,18 +921,20 @@ import {getRandom} from "./utils.js";
 
      arrayClass.forEach((element) => {
        let rangeClassNumber = element.race[getRace].split('-')[0];
-       console.log('Число выпало ' + classNumber + ' ' + rangeClassNumber);
 
        if (classNumber === Number(rangeClassNumber) || (classNumber >= element.race[getRace].split('-')[0] && classNumber <= element.race[getRace].split('-')[1])) {
-         console.log(rangeClassNumber);
          classEnter.value = element.className;
          careerEnter.value = element.career;
          rangEnter.value = Object.keys(element.stage)[0];
          rangNameEnter.value = element.stage.first;
          status.value = element.status[0];
-
        }
      });
+     character.characterClass = classEnter.value;
+     character.characterCareer = careerEnter.value;
+     character.characterCareerStage = rangEnter.value;
+     character.characterCareerPath = rangNameEnter.value;
+     character.characterStatus = status.value;
    }
 
    generateButton.addEventListener('click', () => {
