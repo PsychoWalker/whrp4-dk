@@ -7,11 +7,11 @@ const MAX_MEANING_DICE = 10;
 const generateCharacteristicHandler = () => {
   const generateCharacteriscitButton = document.querySelector('.generateCharacteristic');
   const firstMeaning = document.querySelectorAll('.firstMeaning');
-  console.warn('111');
   generateCharacteriscitButton.addEventListener('click', () => {
     if (character.characterRace === 'Человек') {
       firstMeaning.forEach((element) => {
         element.textContent = String(getRandom(MIN_MEANING_DICE,MAX_MEANING_DICE) + getRandom(MIN_MEANING_DICE,MAX_MEANING_DICE) + 20);
+        character.characterCharacteristics.push(element.textContent);
       });
     }
     if (character.characterRace === 'Дварф') {
@@ -52,5 +52,4 @@ const generateCharacteristicHandler = () => {
     }
   });
 }
-
 export {generateCharacteristicHandler};

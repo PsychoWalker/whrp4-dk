@@ -10,18 +10,7 @@ const character = {
   characterHeight: '',
   characterHair: '',
   characterEyes: '',
-  characterCharacteristics: {
-    ws: '',
-    bs: '',
-    s: '',
-    t: '',
-    i: '',
-    ag: '',
-    dex: '',
-    int: '',
-    wp: '',
-    fel: ''
-  },
+  characterCharacteristics: [],
   characterFate: {
     fate: '',
     fortune: ''
