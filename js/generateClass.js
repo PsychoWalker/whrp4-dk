@@ -141,6 +141,7 @@ import {character} from "./character.js";
     },
     status: ['Серебряный-1','Серебряный-2','Серебряный-3','Серебряный-5'],
     inventory: [],
+    classCharacteristic: [0,2,3,4,5,9],
     classSkill: '',
     race: ['14','26-28','26','14-15','6-7']
   };
@@ -155,6 +156,7 @@ import {character} from "./character.js";
     },
     status: ['Медный-2','Серебряный-2','Серебряный-3','Серебряный-4'],
     inventory: [],
+    classCharacteristic: [0,3,8,2,4,9],
     classSkill: '',
     race: ['15','none','none','none','none']
   };
@@ -169,6 +171,7 @@ import {character} from "./character.js";
     },
     status: ['Серебряный-2','Серебряный-4','Золотой-1','Золотой-2'],
     inventory: [],
+    classCharacteristic: [0,2,5,1,4,9],
     classSkill: '',
     race: ['16-17','none','none','16-19','8-12']
   };
@@ -183,6 +186,7 @@ import {character} from "./character.js";
     },
     status: ['Медный-2','Серебряный-1','Серебряный-4','Золотой-1'],
     inventory: [],
+    classCharacteristic: [0,3,5,4,1,9],
     classSkill: '',
     race: ['18','29-31','none','20','none']
   };
@@ -197,6 +201,7 @@ import {character} from "./character.js";
     },
     status: ['Серебряный-1','Серебряный-2','Серебряный-3','Серебряный-5'],
     inventory: [],
+    classCharacteristic: [0,3,5,4,2,7],
     classSkill: '',
     race: ['19-20','32-34','27-28','21-22','13-14']
   };
@@ -211,6 +216,7 @@ import {character} from "./character.js";
     },
     status: ['Серебряный-3','Серебряный-5','Золотой-2','gold4'],
     inventory: [],
+    classCharacteristic: [2,4,5,0,8,9],
     classSkill: '',
     race: ['21','none','none','23','15-16']
   };
@@ -225,6 +231,7 @@ import {character} from "./character.js";
     },
     status: ['Серебряный-1','Серебряный-3','Серебряный-5','Золотой-1'],
     inventory: [],
+    classCharacteristic: [0,3,8,1,4,9],
     classSkill: '',
     race: ['22-25','35-37','29-31','24-25','17-20']
   };
@@ -239,6 +246,7 @@ import {character} from "./character.js";
     },
     status: ['Медный-2','Медный-2','Медный-2','Медный-2'],
     inventory: [],
+    classCharacteristic: [0,2,8,3,5,4],
     classSkill: '',
     race: ['none','38-41','none','none','none']
   };
@@ -253,6 +261,7 @@ import {character} from "./character.js";
     },
     status: ['Медный-3','Серебряный-1','Серебряный-3','Золотой-1'],
     inventory: [],
+    classCharacteristic: [3,6,7,9,4,8],
     classSkill: '',
     race: ['26','42','32','26-27','none']
   };
@@ -267,6 +276,7 @@ import {character} from "./character.js";
     },
     status: ['Медный-4','Серебряный-3','Серебряный-5','Золотой-1'],
     inventory: [],
+    classCharacteristic: [6,7,8,9,4,5],
     classSkill: '',
     race: ['27','43','33-34','28-29','none']
   };
@@ -281,6 +291,7 @@ import {character} from "./character.js";
     },
     status: ['Медный-2','Медный-2','Медный-2','Медный-2'],
     inventory: [],
+    classCharacteristic: [3,4,8,9,7,4],
     classSkill: '',
     race: ['28-31','none','none','none','none']
   };
@@ -295,6 +306,7 @@ import {character} from "./character.js";
     },
     status: ['Медный-4','Серебряный-3','Золотой-1','Золотой-2'],
     inventory: [],
+    classCharacteristic: [4,6,7,9,8,4],
     classSkill: '',
     race: ['33','44-45','35-36','30-33','none']
   };
@@ -309,6 +321,7 @@ import {character} from "./character.js";
     },
     status: ['Медный-4','Серебряный-2','Серебряный-4','Медный-2'],
     inventory: [],
+    classCharacteristic: [1,6,7,4,3,8],
     classSkill: '',
     race: ['34','46-48','37','none','none']
   };
@@ -324,6 +337,7 @@ import {character} from "./character.js";
     },
     status: ['cooper3','Серебряный-3','Золотой-1','Золотой-2'],
     inventory: [],
+    classCharacteristic: [0,7,8,5,4,9],
     classSkill: '',
     race: ['35','none','none','34-37','21-24']
   };
@@ -338,6 +352,8 @@ import {character} from "./character.js";
       fourth: 'Генеральный настоятель'
     },
     status: ['Медный-1','Медный-4','Серебряный-2', 'Серебряный-5'],
+    inventory: [],
+    classCharacteristic: [6,7,9,8,4,3],
     classSkill: '',
     race: ['36-37', 'none', 'none', 'none' ]
   };
@@ -352,6 +368,7 @@ import {character} from "./character.js";
     },
     status: ['Медный-3','Серебряный-2','Серебряный-5','Золотой-1'],
     inventory: [],
+    classCharacteristic: [3,7,8,4,9,6],
     classSkill: '',
     race: ['38-39', '49-50', '40', '38-41', '25' ]
   };
@@ -366,6 +383,7 @@ import {character} from "./character.js";
     },
     status: ['Медный-3','Серебряный-2','Серебряный-5','Золотой-1'],
     inventory: [],
+    classCharacteristic: [0,4,8,9,5,7],
     classSkill: '',
     race: ['40', '51-52', '40', 'none', 'none' ]
   };
@@ -380,6 +398,7 @@ import {character} from "./character.js";
     },
     status: ['Медный-1','Медный-2','Медный-3','Медный-5'],
     inventory: [],
+    classCharacteristic: [3,4,6,7,9,8],
     classSkill: '',
     race: ['41', 'none', 'none', 'none', 'none' ]
   };
@@ -394,6 +413,7 @@ import {character} from "./character.js";
     },
     status: ['Медный-1','Медный-2','Медный-3','Медный-4'],
     inventory: [],
+    classCharacteristic: [4,6,9,8,5,7],
     classSkill: '',
     race: ['42', 'none', 'none', 'none', '26-30' ]
   };
@@ -408,6 +428,7 @@ import {character} from "./character.js";
     },
     status: ['Медный-12','Медный-4','Серебряный-1','Серебряный-3'],
     inventory: [],
+    classCharacteristic: [2,3,6,1,4,7],
     classSkill: '',
     race: ['43-44', '53-54', '41-42', '42-44', '31-40' ]
   };
@@ -422,6 +443,7 @@ import {character} from "./character.js";
     },
     status: ['Медный-3','Медный-5','Серебряный-1','Серебряный-5'],
     inventory: [],
+    classCharacteristic: [3,4,5,1,7,6],
     classSkill: '',
     race: ['45', '55', '43', '45-50', '41-51' ]
   };
@@ -436,6 +458,7 @@ import {character} from "./character.js";
     },
     status: ['Медный-2','Медный-4','Медный-5','Серебряный-4'],
     inventory: [],
+    classCharacteristic: [2,3,8,1,4,9],
     classSkill: '',
     race: ['46', '56-60', '40', '44', 'none' ]
   };
@@ -450,6 +473,7 @@ import {character} from "./character.js";
     },
     status: ['Медный-2','Медный-3','Медный-4','Серебряный-2'],
     inventory: [],
+    classCharacteristic: [2,3,5,0,9,7],
     classSkill: '',
     race: ['47-51', '61', '45-47', 'none', 'neone' ]
   };
@@ -464,6 +488,7 @@ import {character} from "./character.js";
     },
     status: ['Медный-2','Медный-4','Серебряный-1','siver3'],
     inventory: [],
+    classCharacteristic: [3,4,5,6,9,7],
     classSkill: '',
     race: ['52', 'none', '48-50', '51-52', '52-58' ]
   };
@@ -478,6 +503,7 @@ import {character} from "./character.js";
     },
     status: ['Золотой-1','Золотой-3','gold5','gold7'],
     inventory: [],
+    classCharacteristic: [0,4,6,9,7,8],
     classSkill: '',
     race: ['53', '62', 'none', '53-55', '59-64' ]
   };
@@ -492,6 +518,7 @@ import {character} from "./character.js";
     },
     status: ['Серебряный-3','Серебряный-5','Золотой-1','Золотой-3'],
     inventory: [],
+    classCharacteristic: [0,4,5,2,3,8],
     classSkill: '',
     race: ['54', '63', 'none', '56-57', 'none' ]
   };
@@ -506,6 +533,7 @@ import {character} from "./character.js";
     },
     status: ['Серебряный-1','Серебряный-3','Серебряный-5','Золотой-1'],
     inventory: [],
+    classCharacteristic: [2,3,5,4,7,9],
     classSkill: '',
     race: ['55-57', '64', '51-56', 'none', 'none' ]
   };
@@ -520,6 +548,7 @@ import {character} from "./character.js";
     },
     status: ['Серебряный-1','Серебряный-3','Золотой-1','Золотой-3'],
     inventory: [],
+    classCharacteristic: [2,3,8,0,9,7],
     classSkill: '',
     race: ['58', '65-66', '57-58', '58-59', 'none' ]
   };
@@ -534,6 +563,7 @@ import {character} from "./character.js";
     },
     status: ['Серебряный-2','Серебряный-4','Золотой-1','Золотой-3'],
     inventory: [],
+    classCharacteristic: [3,4,5,9,7,8],
     classSkill: '',
     race: ['59', '67-68', '59', '60-61', '65-68' ]
   };
@@ -548,6 +578,7 @@ import {character} from "./character.js";
     },
     status: ['Серебряный-1','Серебряный-3','Серебряный-5','Золотой-2'],
     inventory: [],
+    classCharacteristic: [2,4,6,9,8,7],
     classSkill: '',
     race: ['60', '69', '60-61', '62', '69-72' ]
   };
@@ -562,6 +593,7 @@ import {character} from "./character.js";
     },
     status: ['Серебряный-1','Серебряный-3','Золотой-1','gold4'],
     inventory: [],
+    classCharacteristic: [5,8,9,0,4,7],
     classSkill: '',
     race: ['61', '70', '62', '63-65', '73-76' ]
   };
@@ -576,6 +608,7 @@ import {character} from "./character.js";
     },
     status: ['Серебряный-2','Серебряный-4','Золотой-2','gold5'],
     inventory: [],
+    classCharacteristic: [3,5,9,7,4,8],
     classSkill: '',
     race: ['62', '71-72', '63', '66-68', '77-83' ]
   };
@@ -590,6 +623,7 @@ import {character} from "./character.js";
      },
      status: ['Медный-3','Серебряный-1','Серебряный-3','Серебряный-5'],
      inventory: [],
+     classCharacteristic: [0,3,4,2,8,7],
      classSkill: '',
      race: ['63-64', '73-74', '64-66', 'none', 'none' ]
    };
