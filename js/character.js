@@ -11,6 +11,7 @@ const character = {
   characterHair: '',
   characterEyes: '',
   characterCharacteristics: [],
+  characterMainCharacteristics: [],
   characterFate: {
     fate: '',
     fortune: ''
