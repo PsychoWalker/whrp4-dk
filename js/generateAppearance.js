@@ -77,7 +77,7 @@ const hairCharacterCreate = () => {
 
   generateHair.addEventListener('click', () => {
     const race = document.querySelector('.main__block_input-race').value;
-    const randomNumber = getRandom(0, 19);
+    const randomNumber = getRandom(0, 18);
     switch (race) {
       case 'Человек':
         inputHair.value = arrayHairHuman[randomNumber];
@@ -114,7 +114,7 @@ const eyeCharacterCreate = () => {
 
   generateEye.addEventListener('click', () => {
     const race = document.querySelector('.main__block_input-race').value;
-    const randomNumber = getRandom(0, 19);
+    const randomNumber = getRandom(0, 18);
     switch (race) {
       case 'Человек':
         inputEye.value = arrayEyeHuman[randomNumber];
