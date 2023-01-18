@@ -3,6 +3,7 @@ import {ageCharacterCreate, riseCharacterCreate, hairCharacterCreate,eyeCharacte
 import {generateClass} from "./generateClass.js";
 import {generateCharacteristicHandler} from  "./generateCharacteristic.js";
 import {upMainCharacteristic} from "./startCharacteristic.js";
+import {upMainAlignment} from "./startAlignment.js";
 
 ageCharacterCreate();
 riseCharacterCreate();
@@ -12,3 +13,4 @@ randomRace();
 generateClass();
 generateCharacteristicHandler();
 upMainCharacteristic();
+upMainAlignment();

@@ -4,12 +4,18 @@ import {character} from "./character.js";
 const randomRace = () => {
   const generateButton = document.querySelector('.generateRace');
   const inputRace = document.querySelector('.main__block_input-race');
-  const freeAligment = document.querySelector('.numberOfFreeAligment');
-  const aligment = document.querySelector('.numberOfFreeAligment');
+  const freeAlignment = document.querySelector('.numberOfFreeAlignment');
   const fate = document.querySelector('.fate');
   const fortune = document.querySelector('.fortune');
   const perseverance = document.querySelector('.perseverance');
   const determination = document.querySelector('.determination');
+  const speed = document.querySelector('.speed');
+  const step = document.querySelector('.step');
+  const run = document.querySelector('.run');
+  const HUMAN_ALIGNMENT = [2,1,3,4];
+  const HALFLING_ALIGNMENT = [0,2,3,3];
+  const DWARF_ALIGNMENT = [0,2,2,3];
+  const ELF_ALIGNMENT = [0,0,2,5];
 
 
   generateButton.addEventListener('click', () => {
@@ -17,43 +23,68 @@ const randomRace = () => {
     if (race <= 90) {
       inputRace.value = 'Человек';
       inputRace.setAttribute('data-race', '0');
-      freeAligment.textContent = 3;
-      fate.textContent = 2;
+      freeAlignment.textContent = HUMAN_ALIGNMENT[2];
+      fate.textContent = HUMAN_ALIGNMENT[0];
+      fate.parentElement.setAttribute('style', 'background: #81e581; cursor: pointer');
       fortune.textContent = fate.textContent;
-      perseverance.textContent = 1;
-      determination.textContent = perseverance;
+      perseverance.textContent = HUMAN_ALIGNMENT[1];
+      perseverance.parentElement.setAttribute('style', 'background: #81e581; cursor: pointer');
+      determination.textContent = perseverance.textContent;
+      speed.textContent = HUMAN_ALIGNMENT[3];
+      step.textContent = HUMAN_ALIGNMENT[3] * 2;
+      run.textContent = HUMAN_ALIGNMENT[3] * 4;
     } else if (race > 90 && race <=94) {
       inputRace.value = 'Полурослик';
       inputRace.setAttribute('data-race', '2');
-      freeAligment.textContent = 3;
-      fate.textContent = 0;
+      freeAlignment.textContent = HALFLING_ALIGNMENT[2];
+      fate.textContent = HALFLING_ALIGNMENT[1];
+      fate.parentElement.setAttribute('style', 'background: #81e581; cursor: pointer');
       fortune.textContent = fate.textContent;
-      perseverance.textContent = 2;
-      determination.textContent = perseverance;
+      perseverance.textContent = HALFLING_ALIGNMENT[2];
+      perseverance.parentElement.setAttribute('style', 'background: #81e581; cursor: pointer');
+      determination.textContent = perseverance.textContent;
+      speed.textContent = HALFLING_ALIGNMENT[3];
+      step.textContent = HALFLING_ALIGNMENT[3] * 2;
+      run.textContent = HALFLING_ALIGNMENT[3] * 4;
     } else if (race > 94 && race <= 97) {
       inputRace.value = 'Дварф';
       inputRace.setAttribute('data-race', '1');
-      freeAligment.textContent = 2;
-      fate.textContent = 0;
+      freeAlignment.textContent = DWARF_ALIGNMENT[2];
+      fate.textContent = DWARF_ALIGNMENT[0];
+      fate.parentElement.setAttribute('style', 'background: #81e581; cursor: pointer');
       fortune.textContent = fate.textContent;
-      perseverance.textContent = 2;
-      determination.textContent = perseverance;
+      perseverance.textContent = DWARF_ALIGNMENT[1];
+      perseverance.parentElement.setAttribute('style', 'background: #81e581; cursor: pointer');
+      determination.textContent = perseverance.textContent;
+      speed.textContent = DWARF_ALIGNMENT[3];
+      step.textContent = DWARF_ALIGNMENT[3] * 2;
+      run.textContent = DWARF_ALIGNMENT[3] * 4;
     } else if (race > 98 && race <= 99) {
       inputRace.value = 'Высший эльф';
       inputRace.setAttribute('data-race', '3');
-      freeAligment.textContent = 3;
-      fate.textContent = 0;
-      fortune.textContent = fate.textContent;
-      perseverance.textContent = 2;
-      determination.textContent = perseverance;
+      freeAlignment.textContent = ELF_ALIGNMENT[2];
+      fate.textContent = ELF_ALIGNMENT[0];
+      fate.parentElement.setAttribute('style', 'background: #81e581; cursor: pointer');
+      fortune.textContent = fate.textContent.textContent;
+      perseverance.textContent = ELF_ALIGNMENT[1];
+      perseverance.parentElement.setAttribute('style', 'background: #81e581; cursor: pointer');
+      determination.textContent = perseverance.textContent;
+      speed.textContent = ELF_ALIGNMENT[3];
+      step.textContent = ELF_ALIGNMENT[3] * 2;
+      run.textContent = ELF_ALIGNMENT[3] * 4;
     } else if (race === 100) {
       inputRace.value = 'Лесной эльф';
       inputRace.setAttribute('data-race', '4');
-      freeAligment.textContent = 2                                                                                                                                                            ;
-      fate.textContent = 0;
+      freeAlignment.textContent = ELF_ALIGNMENT[2];
+      fate.textContent = ELF_ALIGNMENT[0];
+      fate.parentElement.setAttribute('style', 'background: #81e581; cursor: pointer');
       fortune.textContent = fate.textContent;
-      perseverance.textContent = 0;
-      determination.textContent = perseverance;
+      perseverance.textContent = ELF_ALIGNMENT[1];
+      perseverance.parentElement.setAttribute('style', 'background: #81e581; cursor: pointer');
+      determination.textContent = perseverance.textContent;
+      speed.textContent = ELF_ALIGNMENT[3];
+      step.textContent = ELF_ALIGNMENT[3] * 2;
+      run.textContent = ELF_ALIGNMENT[3] * 4;
     }
     character.characterRace = inputRace.value;
   });
