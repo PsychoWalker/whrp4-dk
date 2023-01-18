@@ -1004,6 +1004,7 @@ import {character} from "./character.js";
          char.forEach((elem, index) => {
           if (index < 3) {
             baseCharacteristic[elem].setAttribute('style', 'background: #81e581; cursor: pointer');
+            baseCharacteristic[elem].classList.add('mainClass');
           }
          });
        }
