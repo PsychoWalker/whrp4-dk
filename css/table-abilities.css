@@ -1,0 +1,31 @@
+table.abilities-table{
+  width: 32%;
+  border-collapse:collapse;
+  border-spacing:0;
+  height: auto;
+}
+
+table.abilities-table td,table.abilities-table th {
+  padding: 3px;
+  width: 30px;
+  height: 35px;
+}
+table.abilities-table th {
+  background: #347c99;
+  color: #fff;
+  font-weight: normal;
+}
+
+table.abilities-table tr td:first-child {
+  max-width: 40%;
+  min-width: 40%;
+  width: 40%;
+}
+
+table.abilities-table tr td:not(:first-child) {
+  max-width: 20%;
+  width: 20%;
+  min-width: 20%;
+  vertical-align: middle;
+  text-align: center;
+}

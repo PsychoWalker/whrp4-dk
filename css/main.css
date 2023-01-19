@@ -130,7 +130,7 @@ h1 {
   border: none;
   padding: 10px 15px;
   background: #d8d8d8;
-  font-size: 14px;
+  font-size: 12px;
   border-left: 1px solid #ddd;
   border-right: 1px solid #ddd;
 }
@@ -162,4 +162,12 @@ h1 {
 
 .margin-bottom {
   margin-bottom: 53px;
+}
+
+/* ABILITIES */
+
+.abilities-main {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
