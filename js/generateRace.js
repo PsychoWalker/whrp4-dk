@@ -24,6 +24,10 @@ const randomRaceHandler = () => {
   const woodElfSkill = ['атлетика', 'артистизм (пение)', 'выживание', 'выслеживание', 'запугивание', 'лазание', 'наблюдательность', 'рукопашный бой (основное)', 'скрытность (дикая природа)', 'стойкость', 'стрельба (луки)', 'язык (эльтарин)'];
 
   generateButton.addEventListener('click', () => {
+    const restart = document.querySelectorAll('.main__block_input');
+    restart.forEach((element) => {
+      element.value = '';
+    });
     const race = getRandom(1,100);
     if (race <= 90) {
       inputRace.value = 'Человек';
