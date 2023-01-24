@@ -1,7 +1,7 @@
 import {getRandom} from "./utils.js";
 import {character} from "./character.js";
 
-const randomRace = () => {
+const randomRaceHandler = () => {
   const generateButton = document.querySelector('.generateRace');
   const inputRace = document.querySelector('.main__block_input-race');
   const freeAlignment = document.querySelector('.numberOfFreeAlignment');
@@ -16,7 +16,12 @@ const randomRace = () => {
   const HALFLING_ALIGNMENT = [0,2,3,3];
   const DWARF_ALIGNMENT = [0,2,2,3];
   const ELF_ALIGNMENT = [0,0,2,5];
-
+  const humanSkill = ['знание (Рейкланд)', 'лидерство', 'обращение с животными', 'обаяние', 'оценка', 'рукопашный бой (основное)', 'сплетничество',
+    'стрельба (луки)', 'торговля', 'хладнокровие', 'язык (бретонский)', 'язык (вестерландский)'];
+  const dwarfSkill = ['артистизм (сказительство)', 'запугивание', 'знание (геология)', 'знание (гномы)', 'знание (металлургия)', 'кутёж', 'оценка', 'ремесло (любое)', 'рукопашный бой (основное)', 'стойкость', 'хладнокровие', 'язык (кхазалид)'];
+  const halflingSkill = ['азартные игры', 'знание (Рейкланд)', 'интуиция', 'кутёж', 'ловкость рук', 'наблюдательность', 'обаяние', 'ремесло (повар)', 'скрытность (любая)', 'торговля', 'уклонение', 'язык (мутландский)'];
+  const highElfSkill = ['артистизм (пение)', 'лидерство', 'музицирование (любое)', 'наблюдательность', 'ориентирование', 'оценка', 'плавание', 'рукопашный бой (основное)', 'стрельба (луки)', 'хладнокровие', 'хождение под парусом', 'язык (эльтарин)'];
+  const woodElfSkill = ['атлетика', 'артистизм (пение)', 'выживание', 'выслеживание', 'запугивание', 'лазание', 'наблюдательность', 'рукопашный бой (основное)', 'скрытность (дикая природа)', 'стойкость', 'стрельба (луки)', 'язык (эльтарин)'];
 
   generateButton.addEventListener('click', () => {
     const race = getRandom(1,100);
@@ -91,4 +96,4 @@ const randomRace = () => {
 }
 
 
-export {randomRace}
+export {randomRaceHandler}

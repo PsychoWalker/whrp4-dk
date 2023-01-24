@@ -1,7 +1,7 @@
 import {getRandom} from "./utils.js";
 import {character} from "./character.js";
 
- const generateClass = () => {
+ const generateClassHandler = () => {
   const arrayClass = [];
 
   const MIN_CLASS_NUMBER = 1;
@@ -1023,4 +1023,4 @@ import {character} from "./character.js";
 
  }
 
- export {generateClass}
+ export {generateClassHandler}

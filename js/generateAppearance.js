@@ -33,7 +33,7 @@ const ageCharacterCreate = () => {
   });
 }
 
-const riseCharacterCreate = () => {
+const riseCharacterCreateHandler = () => {
 
   const generateRise = document.querySelector('.generateRise');
   const inputHeight = document.querySelector('.main__block_input-rise');
@@ -139,4 +139,4 @@ const eyeCharacterCreate = () => {
   });
 }
 
-export {ageCharacterCreate,riseCharacterCreate, hairCharacterCreate,eyeCharacterCreate};
+export {ageCharacterCreate,riseCharacterCreateHandler, hairCharacterCreate,eyeCharacterCreate};
