@@ -23,10 +23,37 @@ const randomRaceHandler = () => {
   const highElfSkill = ['артистизм (пение)', 'лидерство', 'музицирование (любое)', 'наблюдательность', 'ориентирование', 'оценка', 'плавание', 'рукопашный бой (основное)', 'стрельба (луки)', 'хладнокровие', 'хождение под парусом', 'язык (эльтарин)'];
   const woodElfSkill = ['атлетика', 'артистизм (пение)', 'выживание', 'выслеживание', 'запугивание', 'лазание', 'наблюдательность', 'рукопашный бой (основное)', 'скрытность (дикая природа)', 'стойкость', 'стрельба (луки)', 'язык (эльтарин)'];
 
+  const getSkill = (nameRace) => {
+    const nameSkill = document.querySelectorAll('.nameSkill');
+    const resetSkill = () => {
+      nameSkill.forEach((element) => {
+        if (element.classList.contains('race')) {
+          element.classList.remove('race');
+          element.setAttribute('style', 'background: #ffffff');
+        }
+      });
+    };
+    for (let i = 0; i <=nameSkill.length; i++) {
+      for (let j = 0; j <= nameRace.length; j++) {
+        if (nameSkill[i].textContent.toLowerCase() === nameRace[j]) {
+          nameSkill[i].classList.add('race');
+          nameSkill[i].setAttribute('style', 'background: #cbcbcb');
+        }
+      }
+    }
+  }
+
   generateButton.addEventListener('click', () => {
     const restart = document.querySelectorAll('.main__block_input');
     restart.forEach((element) => {
       element.value = '';
+    });
+    const char = document.querySelectorAll('.char');
+    char.forEach((element) => {
+      if (element.classList.contains('mainClass')) {
+        element.classList.remove('mainClass');
+        element.removeAttribute('style');
+      }
     });
     const race = getRandom(1,100);
     if (race <= 90) {
@@ -42,6 +69,7 @@ const randomRaceHandler = () => {
       speed.textContent = HUMAN_ALIGNMENT[3];
       step.textContent = HUMAN_ALIGNMENT[3] * 2;
       run.textContent = HUMAN_ALIGNMENT[3] * 4;
+      getSkill(humanSkill);
     } else if (race > 90 && race <=94) {
       inputRace.value = 'Полурослик';
       inputRace.setAttribute('data-race', '2');
@@ -55,6 +83,7 @@ const randomRaceHandler = () => {
       speed.textContent = HALFLING_ALIGNMENT[3];
       step.textContent = HALFLING_ALIGNMENT[3] * 2;
       run.textContent = HALFLING_ALIGNMENT[3] * 4;
+      getSkill(halflingSkill);
     } else if (race > 94 && race <= 97) {
       inputRace.value = 'Дварф';
       inputRace.setAttribute('data-race', '1');
@@ -68,6 +97,7 @@ const randomRaceHandler = () => {
       speed.textContent = DWARF_ALIGNMENT[3];
       step.textContent = DWARF_ALIGNMENT[3] * 2;
       run.textContent = DWARF_ALIGNMENT[3] * 4;
+      getSkill(dwarfSkill);
     } else if (race > 98 && race <= 99) {
       inputRace.value = 'Высший эльф';
       inputRace.setAttribute('data-race', '3');
@@ -81,6 +111,7 @@ const randomRaceHandler = () => {
       speed.textContent = ELF_ALIGNMENT[3];
       step.textContent = ELF_ALIGNMENT[3] * 2;
       run.textContent = ELF_ALIGNMENT[3] * 4;
+      getSkill(highElfSkill);
     } else if (race === 100) {
       inputRace.value = 'Лесной эльф';
       inputRace.setAttribute('data-race', '4');
@@ -94,8 +125,13 @@ const randomRaceHandler = () => {
       speed.textContent = ELF_ALIGNMENT[3];
       step.textContent = ELF_ALIGNMENT[3] * 2;
       run.textContent = ELF_ALIGNMENT[3] * 4;
+      getSkill(woodElfSkill);
     }
     character.characterRace = inputRace.value;
+    character.characterMovement.movement = speed.textContent;
+    character.characterMovement.walk = step.textContent;
+    character.characterMovement.run = run.textContent;
+
   });
 }
 

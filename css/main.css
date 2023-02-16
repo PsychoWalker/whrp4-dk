@@ -148,9 +148,6 @@ h1 {
 .table thead tr th:last-child, .table tbody tr td:last-child {
   border-right: none;
 }
-.table tbody tr:nth-child(even){
-  background: #f3f3f3;
-}
 
 .generateCharacteristic {
   width: 50px;

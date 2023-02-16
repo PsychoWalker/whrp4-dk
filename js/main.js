@@ -4,6 +4,7 @@ import {generateClassHandler} from "./generateClass.js";
 import {generateCharacteristicHandler} from  "./generateCharacteristic.js";
 import {upMainCharacteristic} from "./startCharacteristic.js";
 import {upMainAlignment} from "./startAlignment.js";
+import {character} from "./character.js";
 
 ageCharacterCreate();
 riseCharacterCreateHandler();
@@ -14,3 +15,7 @@ generateClassHandler();
 generateCharacteristicHandler();
 upMainCharacteristic();
 upMainAlignment();
+
+document.querySelector('.uniq').addEventListener('click', () => {
+  console.log(character);
+});

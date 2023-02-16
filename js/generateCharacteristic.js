@@ -50,6 +50,7 @@ const generateCharacteristicHandler = () => {
       firstMeaning[8].textContent = String(getRandom(MIN_MEANING_DICE,MAX_MEANING_DICE) + getRandom(MIN_MEANING_DICE,MAX_MEANING_DICE) + 30);
       firstMeaning[9].textContent = String(getRandom(MIN_MEANING_DICE,MAX_MEANING_DICE) + getRandom(MIN_MEANING_DICE,MAX_MEANING_DICE) + 20);
     }
+
   });
 }
 export {generateCharacteristicHandler};

@@ -1,3 +1,5 @@
+import {character} from "./character.js";
+
 const upMainCharacteristic = () => {
   const mainCharacteristic = document.querySelectorAll('.char');
   const baseCharacteristic = document.querySelectorAll('.firstMeaning');
@@ -12,6 +14,7 @@ const upMainCharacteristic = () => {
           baseCharacteristic[index].textContent = Number(baseCharacteristic[index].textContent) + 1;
           numberOfFreeCharacteristic--;
           numberOfFreeCharacteristics.textContent = numberOfFreeCharacteristic;
+          character.characterCharacteristics[index] = baseCharacteristic[index].textContent;
         }
       }
     });
