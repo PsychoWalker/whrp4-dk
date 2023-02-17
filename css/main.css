@@ -138,6 +138,7 @@ h1 {
   text-align: left;
   border-left: 1px solid #ddd;
   border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
   padding: 10px 15px;
   font-size: 14px;
   vertical-align: top;
@@ -167,4 +168,8 @@ h1 {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+}
+
+.race {
+  background: #cbcbcb;
 }

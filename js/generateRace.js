@@ -25,22 +25,37 @@ const randomRaceHandler = () => {
 
   const getSkill = (nameRace) => {
     const nameSkill = document.querySelectorAll('.nameSkill');
+    const uniqSkill = document.querySelectorAll('.uniqSkill');
+    const arraySkill = [];
+    nameSkill.forEach((el) => {
+      arraySkill.push(el.textContent.toLowerCase());
+    });
     const resetSkill = () => {
       nameSkill.forEach((element) => {
         if (element.classList.contains('race')) {
           element.classList.remove('race');
-          element.setAttribute('style', 'background: #ffffff');
         }
       });
+      uniqSkill.forEach((element) => {
+        element.classList.remove('race');
+      });
     };
-    for (let i = 0; i <=nameSkill.length; i++) {
+    resetSkill();
+    for (let i = 0; i <=nameSkill.length - 1; i++) {
       for (let j = 0; j <= nameRace.length; j++) {
         if (nameSkill[i].textContent.toLowerCase() === nameRace[j]) {
           nameSkill[i].classList.add('race');
-          nameSkill[i].setAttribute('style', 'background: #cbcbcb');
         }
       }
     }
+    let arrUniq = nameRace.filter(i => !arraySkill.includes(i));
+    console.log(arrUniq);
+    uniqSkill.forEach((elem, index) => {
+      if (arrUniq[index]) {
+        elem.textContent = arrUniq[index];
+        elem.classList.add('race');
+      }
+    });
   }
 
   generateButton.addEventListener('click', () => {
