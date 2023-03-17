@@ -12,6 +12,7 @@ const character = {
   characterEyes: '',
   characterCharacteristics: [],
   characterMainCharacteristics: [],
+  characterStepCharacteristics: [],
   characterFate: {
     fate: '',
     fortune: ''
