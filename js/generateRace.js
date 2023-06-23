@@ -72,7 +72,7 @@ const randomRaceHandler = () => {
     });
     const race = getRandom(1,100);
     if (race <= 90) {
-      inputRace.value = 'Человек';
+      character.characterRace = 'Человек';
       inputRace.setAttribute('data-race', '0');
       freeAlignment.textContent = HUMAN_ALIGNMENT[2];
       fate.textContent = HUMAN_ALIGNMENT[0];
@@ -81,12 +81,12 @@ const randomRaceHandler = () => {
       perseverance.textContent = HUMAN_ALIGNMENT[1];
       perseverance.parentElement.setAttribute('style', 'background: #81e581; cursor: pointer');
       determination.textContent = perseverance.textContent;
-      speed.textContent = HUMAN_ALIGNMENT[3];
-      step.textContent = HUMAN_ALIGNMENT[3] * 2;
-      run.textContent = HUMAN_ALIGNMENT[3] * 4;
+      character.characterMovement.movement = HUMAN_ALIGNMENT[3];
+      character.characterMovement.walk = HUMAN_ALIGNMENT[3] * 2;
+      character.characterMovement.run= HUMAN_ALIGNMENT[3] * 4;
       getSkill(humanSkill);
     } else if (race > 90 && race <=94) {
-      inputRace.value = 'Полурослик';
+      character.characterRace = 'Полурослик';
       inputRace.setAttribute('data-race', '2');
       freeAlignment.textContent = HALFLING_ALIGNMENT[2];
       fate.textContent = HALFLING_ALIGNMENT[1];
@@ -95,12 +95,12 @@ const randomRaceHandler = () => {
       perseverance.textContent = HALFLING_ALIGNMENT[2];
       perseverance.parentElement.setAttribute('style', 'background: #81e581; cursor: pointer');
       determination.textContent = perseverance.textContent;
-      speed.textContent = HALFLING_ALIGNMENT[3];
-      step.textContent = HALFLING_ALIGNMENT[3] * 2;
-      run.textContent = HALFLING_ALIGNMENT[3] * 4;
+      character.characterMovement.movement = HALFLING_ALIGNMENT[3];
+      character.characterMovement.walk = HALFLING_ALIGNMENT[3] * 2;
+      character.characterMovement.run = HALFLING_ALIGNMENT[3] * 4;
       getSkill(halflingSkill);
     } else if (race > 94 && race <= 97) {
-      inputRace.value = 'Дварф';
+      character.characterRace = 'Дварф';
       inputRace.setAttribute('data-race', '1');
       freeAlignment.textContent = DWARF_ALIGNMENT[2];
       fate.textContent = DWARF_ALIGNMENT[0];
@@ -109,12 +109,12 @@ const randomRaceHandler = () => {
       perseverance.textContent = DWARF_ALIGNMENT[1];
       perseverance.parentElement.setAttribute('style', 'background: #81e581; cursor: pointer');
       determination.textContent = perseverance.textContent;
-      speed.textContent = DWARF_ALIGNMENT[3];
-      step.textContent = DWARF_ALIGNMENT[3] * 2;
-      run.textContent = DWARF_ALIGNMENT[3] * 4;
+      character.characterMovement.movement = DWARF_ALIGNMENT[3];
+      character.characterMovement.walk = DWARF_ALIGNMENT[3] * 2;
+      character.characterMovement.run = DWARF_ALIGNMENT[3] * 4;
       getSkill(dwarfSkill);
     } else if (race > 98 && race <= 99) {
-      inputRace.value = 'Высший эльф';
+      character.characterRace = 'Высший эльф';
       inputRace.setAttribute('data-race', '3');
       freeAlignment.textContent = ELF_ALIGNMENT[2];
       fate.textContent = ELF_ALIGNMENT[0];
@@ -123,12 +123,12 @@ const randomRaceHandler = () => {
       perseverance.textContent = ELF_ALIGNMENT[1];
       perseverance.parentElement.setAttribute('style', 'background: #81e581; cursor: pointer');
       determination.textContent = perseverance.textContent;
-      speed.textContent = ELF_ALIGNMENT[3];
-      step.textContent = ELF_ALIGNMENT[3] * 2;
-      run.textContent = ELF_ALIGNMENT[3] * 4;
+      character.characterMovement.movement = ELF_ALIGNMENT[3];
+      character.characterMovement.walk = ELF_ALIGNMENT[3] * 2;
+      character.characterMovement.run = ELF_ALIGNMENT[3] * 4;
       getSkill(highElfSkill);
     } else if (race === 100) {
-      inputRace.value = 'Лесной эльф';
+      character.characterRace = 'Лесной эльф';
       inputRace.setAttribute('data-race', '4');
       freeAlignment.textContent = ELF_ALIGNMENT[2];
       fate.textContent = ELF_ALIGNMENT[0];
@@ -137,15 +137,16 @@ const randomRaceHandler = () => {
       perseverance.textContent = ELF_ALIGNMENT[1];
       perseverance.parentElement.setAttribute('style', 'background: #81e581; cursor: pointer');
       determination.textContent = perseverance.textContent;
-      speed.textContent = ELF_ALIGNMENT[3];
-      step.textContent = ELF_ALIGNMENT[3] * 2;
-      run.textContent = ELF_ALIGNMENT[3] * 4;
+      character.characterMovement.movement = ELF_ALIGNMENT[3];
+      character.characterMovement.walk = ELF_ALIGNMENT[3] * 2;
+      character.characterMovement.run = ELF_ALIGNMENT[3] * 4;
       getSkill(woodElfSkill);
     }
-    character.characterRace = inputRace.value;
-    character.characterMovement.movement = speed.textContent;
-    character.characterMovement.walk = step.textContent;
-    character.characterMovement.run = run.textContent;
+
+    inputRace.value = character.characterRace;
+    speed.textContent = character.characterMovement.movement;
+    step.textContent = character.characterMovement.walk;
+    run.textContent = character.characterMovement.run;
 
   });
 }
