@@ -1,40 +1,16 @@
-const { src, dest, watch, series} = require("gulp");
-const del = require("del");
-const plumber = require("gulp-plumber");
-const notify = require("gulp-notify");
-const htmlmin = require("gulp-htmlmin");
-const size = require("gulp-size");
+const {gulp, series} = require('gulp');
 
-//Удаление директории
-const clear = () => {
-  return del("./public");
-}
-
-//обработка HTML
-const html = cb => {
- return src("./index.html")
-   .pipe(plumber({
-     errorHandler: notify.onError()
-   }))
-   .pipe(size({ title: "До сжатия"}))
-   .pipe(htmlmin({
-     collapseWhitespace: true
-   }))
-   .pipe(size({ title: "После сжатия"}))
-  .pipe(dest("./public"));
-}
-
-const watcher = () => {
-  watch("./index.html", html);
-}
-
-exports.html = html;
-exports.watch = watcher;
-exports.clear = clear;
-
+const requireDir = require('require-dir');
+const {js} = require("./tasks/js_init");
+const {css} = require("./tasks/css_init");
+const {html} = require("./tasks/html_init");
+const tasks = requireDir('./tasks');
 
 exports.dev = series(
-  clear,
-  html,
-  watcher
+  js,
+  css,
+  html
 );
+
+exports.dev_js = tasks.dev_js;
+exports.dev_css = tasks.dev_css;
